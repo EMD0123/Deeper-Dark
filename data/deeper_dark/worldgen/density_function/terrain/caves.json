@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:range_choice",
+  "input": "deeper_dark:terrain/barrier",
+  "min_inclusive": 0.5,
+  "max_exclusive": 1.5,
+  "when_in_range": "deeper_dark:terrain/ancient_dark",
+  "when_out_of_range": {
+    "type": "minecraft:max",
+    "argument1": "deeper_dark:terrain/pillar",
+    "argument2": {
+      "type": "minecraft:min",
+      "argument1": "deeper_dark:terrain/deep_oasis",
+      "argument2": {
+        "type": "minecraft:min",
+        "argument1": "deeper_dark:terrain/amethyst_mines",
+        "argument2": {
+          "type": "minecraft:min",
+          "argument1": "deeper_dark:terrain/cavern",
+          "argument2": {
+            "type": "minecraft:min",
+            "argument1": "deeper_dark:terrain/ravine",
+            "argument2": {
+              "type": "minecraft:min",
+              "argument1": "deeper_dark:terrain/lava_cave",
+              "argument2": {
+                "type": "minecraft:min",
+                "argument1": "deeper_dark:terrain/spaghetti_4/range",
+                "argument2": {
+                  "type": "minecraft:min",
+                  "argument1": "deeper_dark:terrain/spaghetti_3/range",
+                  "argument2": {
+                    "type": "minecraft:min",
+                    "argument1": "deeper_dark:terrain/spaghetti_2/range",
+                    "argument2": "deeper_dark:terrain/spaghetti_1/range"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

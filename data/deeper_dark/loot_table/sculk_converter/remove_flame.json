@@ -1,0 +1,262 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:loot_table",
+              "value": {
+                "pools": [
+                  {
+                    "rolls": 1,
+                    "entries": [
+                      {
+                        "type": "minecraft:item",
+                        "name": "stone"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "functions": [],
+              "conditions": [
+                {
+                  "condition": "minecraft:value_check",
+                  "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                      "type": "minecraft:fixed",
+                      "name": "1"
+                    },
+                    "score": "deeper_dark.var"
+                  },
+                  "range": 1
+                }
+              ]
+            },
+            {
+              "type": "minecraft:loot_table",
+              "value": {
+                "pools": [
+                  {
+                    "rolls": 2,
+                    "entries": [
+                      {
+                        "type": "minecraft:item",
+                        "name": "stone"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "functions": [],
+              "conditions": [
+                {
+                  "condition": "minecraft:value_check",
+                  "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                      "type": "minecraft:fixed",
+                      "name": "2"
+                    },
+                    "score": "deeper_dark.var"
+                  },
+                  "range": 1
+                }
+              ]
+            },
+            {
+              "type": "minecraft:loot_table",
+              "value": {
+                "pools": [
+                  {
+                    "rolls": 3,
+                    "entries": [
+                      {
+                        "type": "minecraft:item",
+                        "name": "stone"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "functions": [],
+              "conditions": [
+                {
+                  "condition": "minecraft:value_check",
+                  "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                      "type": "minecraft:fixed",
+                      "name": "3"
+                    },
+                    "score": "deeper_dark.var"
+                  },
+                  "range": 1
+                }
+              ]
+            },
+            {
+              "type": "minecraft:loot_table",
+              "value": {
+                "pools": [
+                  {
+                    "rolls": 4,
+                    "entries": [
+                      {
+                        "type": "minecraft:item",
+                        "name": "stone"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "functions": [],
+              "conditions": [
+                {
+                  "condition": "minecraft:value_check",
+                  "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                      "type": "minecraft:fixed",
+                      "name": "4"
+                    },
+                    "score": "deeper_dark.var"
+                  },
+                  "range": 1
+                }
+              ]
+            },
+            {
+              "type": "minecraft:loot_table",
+              "value": {
+                "pools": [
+                  {
+                    "rolls": 5,
+                    "entries": [
+                      {
+                        "type": "minecraft:item",
+                        "name": "stone"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "functions": [],
+              "conditions": [
+                {
+                  "condition": "minecraft:value_check",
+                  "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                      "type": "minecraft:fixed",
+                      "name": "5"
+                    },
+                    "score": "deeper_dark.var"
+                  },
+                  "range": 1
+                }
+              ]
+            },
+            {
+              "type": "minecraft:loot_table",
+              "value": {
+                "pools": [
+                  {
+                    "rolls": 6,
+                    "entries": [
+                      {
+                        "type": "minecraft:item",
+                        "name": "stone"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "functions": [],
+              "conditions": [
+                {
+                  "condition": "minecraft:value_check",
+                  "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                      "type": "minecraft:fixed",
+                      "name": "6"
+                    },
+                    "score": "deeper_dark.var"
+                  },
+                  "range": 1
+                }
+              ]
+            },
+            {
+              "type": "minecraft:loot_table",
+              "value": {
+                "pools": [
+                  {
+                    "rolls": 7,
+                    "entries": [
+                      {
+                        "type": "minecraft:item",
+                        "name": "stone"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "functions": [],
+              "conditions": [
+                {
+                  "condition": "minecraft:value_check",
+                  "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                      "type": "minecraft:fixed",
+                      "name": "7"
+                    },
+                    "score": "deeper_dark.var"
+                  },
+                  "range": 1
+                }
+              ]
+            },
+            {
+              "type": "minecraft:loot_table",
+              "value": {
+                "pools": [
+                  {
+                    "rolls": 8,
+                    "entries": [
+                      {
+                        "type": "minecraft:item",
+                        "name": "stone"
+                      }
+                    ]
+                  }
+                ]
+              },
+              "functions": [],
+              "conditions": [
+                {
+                  "condition": "minecraft:value_check",
+                  "value": {
+                    "type": "minecraft:score",
+                    "target": {
+                      "type": "minecraft:fixed",
+                      "name": "8"
+                    },
+                    "score": "deeper_dark.var"
+                  },
+                  "range": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:compass"
+            ],
+            "predicates": {
+              "minecraft:custom_data": {"deeper_dark_located": 0}
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "deeper_dark:locator/setup"
+  }
+}

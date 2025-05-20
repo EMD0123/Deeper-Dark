@@ -1,0 +1,2 @@
+tag @s add deeper_dark.silent_despawn
+execute positioned ~ ~-.5 ~ as @n[type=minecraft:item,distance=0...6,nbt={Age:0s,Item:{id:"minecraft:sculk",count:1}}] run loot spawn ~ ~ ~ loot deeper_dark:items/sculk_claw

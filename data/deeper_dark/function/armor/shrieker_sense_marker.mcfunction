@@ -1,0 +1,5 @@
+execute at @s run playsound minecraft:entity.experience_orb.pickup player @a ~ ~ ~ 1 1 1
+advancement grant @s only deeper_dark:shrieker_sense
+#North
+execute align xyz positioned ~.5 ~.5 ~.5 run summon text_display ~ ~ ~ {alignment:"left",text_opacity:150,width:1f,height:1f,billboard:"center",see_through:1b,Tags:["deeper_dark.shrieker_sense_marker"],brightness:{sky:15,block:15},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.165f,-1.3f,0f],scale:[9f,9f,9f]},text:'{"color":"#00ffff","text":"◯"}',background:0}
+#execute align xyz positioned ~.5 ~.5 ~.5 run summon text_display ~ ~ ~ {text_opacity:64,width:1f,height:1f,billboard:"center",see_through:0b,Tags:["deeper_dark.shrieker_sense_marker"],brightness:{sky:15,block:15},transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.165f,-1.3f,0f],scale:[9f,9f,9f]},text:'{"color":"#00ffff","text":"⬤"}',background:0}

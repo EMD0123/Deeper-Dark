@@ -1,0 +1,18 @@
+{
+  "structures": [
+    {
+      "structure": "deeper_dark:valid_spawn",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 0,
+    "exclusion_zone": {
+      "other_set": "deeper_dark:large_structures",
+      "chunk_count": 8
+    },
+    "spacing": 1,
+    "separation": 0
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "feature": {
+    "config": {
+      "feature_false": {
+        "feature": {
+          "config": {
+            "to_place": {
+              "type": "minecraft:simple_state_provider",
+              "state": {
+                "Name": "minecraft:sculk_sensor"
+              }
+            }
+          },
+          "type": "minecraft:simple_block"
+        },
+        "placement": []
+      },
+      "feature_true": {
+        "feature": "deeper_dark:calibrated_sculk_sensor",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_boolean_selector"
+  },
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 48
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "above_bottom": 1
+        },
+        "max_inclusive": {
+          "below_top": 1
+        }
+      }
+    },
+    {
+      "type": "minecraft:environment_scan",
+      "direction_of_search": "down",
+      "max_steps": 32,
+      "target_condition": {
+        "type": "minecraft:matching_block_tag",
+        "offset": [
+          0,
+          -1,
+          0
+        ],
+        "tag": "minecraft:vibration_resonators"
+      },
+      "allowed_search_condition": {
+        "type": "minecraft:any_of",
+        "predicates": [
+          {
+            "type": "minecraft:replaceable"
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:sculk_vein"
+          }
+        ]
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "blocks": [
+          "minecraft:air",
+          "minecraft:sculk_vein"
+        ]
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

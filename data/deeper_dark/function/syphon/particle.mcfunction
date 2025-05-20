@@ -1,0 +1,2 @@
+$execute as @n[tag=deeper_dark.syphon_target] anchored eyes positioned ^ ^ ^ run particle trail{color:[0,1,1],target:[$(x),$(y),$(z)],duration:10} ~ ~ ~ 0.3 0.3 0.3 1 5 force
+#$say $particle trail{color:[0,1,1],target:[$(x),$(y),$(z)],duration:10} ~ ~ ~ 0.3 0.3 0.3 1 5 force

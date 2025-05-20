@@ -1,0 +1,60 @@
+{
+  "type": "minecraft:add",
+  "argument1": {
+    "type": "minecraft:add",
+    "argument1": {
+      "type": "minecraft:spline",
+      "spline": {
+        "coordinate": "deeper_dark:continents",
+        "points": [
+          {
+            "location": 0.5,
+            "derivative": 0,
+            "value": 2
+          },
+          {
+            "location": 0.53,
+            "derivative": 0,
+            "value": 0
+          }
+        ]
+      }
+    },
+    "argument2": {
+      "type": "minecraft:spline",
+      "spline": {
+        "coordinate": "deeper_dark:temperature",
+        "points": [
+          {
+            "location": 0.34,
+            "derivative": 0,
+            "value": 0
+          },
+          {
+            "location": 0.35,
+            "derivative": 0,
+            "value": 2
+          }
+        ]
+      }
+    }
+  },
+  "argument2": {
+    "type": "minecraft:spline",
+    "spline": {
+      "coordinate": "deeper_dark:depth",
+      "points": [
+        {
+          "location": -0.4,
+          "derivative": 0,
+          "value": 0
+        },
+        {
+          "location": -0.3,
+          "derivative": 0,
+          "value": 2
+        }
+      ]
+    }
+  }
+}

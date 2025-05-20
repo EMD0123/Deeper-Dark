@@ -1,0 +1,24 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "block": {
+          "blocks": "sculk_vein"
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "stepping_on": {
+          "block": {
+            "blocks": "#deeper_dark:sculk"
+          }
+        }
+      }
+    }
+  ]
+}

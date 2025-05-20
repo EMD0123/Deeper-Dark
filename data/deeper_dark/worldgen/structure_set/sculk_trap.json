@@ -1,0 +1,18 @@
+{
+  "structures": [
+    {
+      "structure": "deeper_dark:sculk_trap",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 1448596458,
+    "exclusion_zone": {
+      "other_set": "deeper_dark:large_structures",
+      "chunk_count": 7
+    },
+    "spacing": 1,
+    "separation": 0
+  }
+}

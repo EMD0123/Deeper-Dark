@@ -1,0 +1,57 @@
+{
+  "type": "minecraft:add",
+  "argument1": {
+    "type": "minecraft:spline",
+    "spline": {
+      "coordinate":{
+        "type": "minecraft:shifted_noise",
+        "noise": "deeper_dark:temperature",
+        "xz_scale": 0.125,
+        "y_scale": 0,
+        "shift_x": "minecraft:shift_x",
+        "shift_y": 0,
+        "shift_z": "minecraft:shift_z"
+      },
+      "points": [
+        {
+          "location": -0.1,
+          "derivative": 0,
+          "value": 10
+        },
+        {
+          "location": 0,
+          "derivative": 0,
+          "value": -1
+        },
+        {
+          "location": 0.1,
+          "derivative": 0,
+          "value": 10
+        }
+      ]
+    }
+  },
+  "argument2": {
+    "type": "minecraft:spline",
+    "spline": {
+      "coordinate": "minecraft:y",
+      "points": [
+        {
+          "location": -64,
+          "derivative": 0,
+          "value": 0.3
+        },
+        {
+          "location": 0,
+          "derivative": 0,
+          "value": 0
+        },
+        {
+          "location": 64,
+          "derivative": 0,
+          "value": 1
+        }
+      ]
+    }
+  }
+}

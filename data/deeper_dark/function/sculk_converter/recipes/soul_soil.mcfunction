@@ -1,0 +1,1 @@
+function deeper_dark:sculk_converter_recipe_types/replace_item_id {replace:"minecraft:dirt",with:"minecraft:soul_soil",flames:1,xp:1,conversion_time:20}

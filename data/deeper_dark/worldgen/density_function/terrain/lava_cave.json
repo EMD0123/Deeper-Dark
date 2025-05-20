@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:add",
+  "argument1": {
+    "type": "minecraft:add",
+    "argument1": {
+      "type": "minecraft:noise",
+      "noise": "deeper_dark:caves/lava_cave",
+      "xz_scale": 0.2,
+      "y_scale": 0.5
+    },
+    "argument2": {
+      "type": "minecraft:y_clamped_gradient",
+      "from_y": -50,
+      "to_y": -30,
+      "from_value": 0.2,
+      "to_value": 2
+    }
+  },
+  "argument2": {
+    "type": "minecraft:spline",
+    "spline": {
+      "coordinate": "deeper_dark:temperature",
+      "points": [
+        {
+          "location": 0.3,
+          "derivative": 0,
+          "value": 2
+        },
+        {
+          "location": 0.35,
+          "derivative": 0,
+          "value": 0
+        }
+      ]
+    }
+  }
+}

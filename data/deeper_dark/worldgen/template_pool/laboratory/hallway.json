@@ -1,0 +1,95 @@
+{
+  "fallback": "deeper_dark:laboratory/hallway",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "deeper_dark:laboratory/hallways/corner_1",
+        "processors": "deeper_dark:laboratory_hallway"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "deeper_dark:laboratory/hallways/corner_2",
+        "processors": "deeper_dark:laboratory_hallway"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "deeper_dark:laboratory/hallways/corner_3",
+        "processors": "deeper_dark:laboratory_hallway"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "deeper_dark:laboratory/hallways/12",
+        "processors": "deeper_dark:laboratory_hallway"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "deeper_dark:laboratory/hallways/6",
+        "processors": "deeper_dark:laboratory_hallway"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "deeper_dark:laboratory/hallways/3",
+        "processors": "deeper_dark:laboratory_hallway"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "deeper_dark:laboratory/hallways/2",
+        "processors": "deeper_dark:laboratory_hallway"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "deeper_dark:laboratory/hallways/1",
+        "processors": "deeper_dark:laboratory_hallway"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "deeper_dark:laboratory/hallways/gate",
+        "processors": "deeper_dark:laboratory_hallway"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "deeper_dark:laboratory/hallways/trap",
+        "processors": "deeper_dark:laboratory_hallway"
+      }
+    }
+  ]
+}

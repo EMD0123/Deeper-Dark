@@ -1,0 +1,21 @@
+{"type":"minecraft:command","pools":[{"rolls":1,"entries":[{"type":"minecraft:item","name":
+
+"minecraft:disc_fragment_5",
+
+  "functions":[{"function":"minecraft:set_components",
+
+"components":{
+  "minecraft:custom_name": "{\"text\":\"Conversion Altar Fragment\",\"italic\":false}",
+  "minecraft:item_name": "{\"text\":\"Conversion Altar Fragment\"}",
+  "minecraft:hide_additional_tooltip": {},
+  "minecraft:enchantment_glint_override": true,
+  "minecraft:rarity":"rare",
+  "minecraft:lore": [
+    "{\"text\":\"Drop on a Sculk Catalyst\",\"italic\":false}"
+  ],
+  "minecraft:custom_data": {
+    "deeper_dark_altar_fragment": 1
+  }
+}
+
+}]}]}]}

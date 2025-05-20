@@ -1,0 +1,19 @@
+{"type":"minecraft:command","pools":[{"rolls":1,"entries":[{"type":"minecraft:item","name":
+
+"minecraft:compass",
+
+  "functions":[{"function":"minecraft:set_components",
+
+"components":{
+  "minecraft:custom_name": "{\"text\":\"Amethyst Mineshaft Locator Compass\",\"italic\":false}",
+  "minecraft:item_name": "{\"text\":\"Amethyst Mineshaft Locator Compass\"}",
+  "minecraft:lodestone_tracker": {
+    "tracked": false
+  },
+  "minecraft:custom_data": {
+    "deeper_dark_located": 0,
+    "deeper_dark_locator": "amethyst_mineshaft"
+  }
+}
+
+}]}]}]}

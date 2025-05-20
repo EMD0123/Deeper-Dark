@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "deeper_dark:amethyst_mines",
+  "step": "underground_decoration",
+  "spawn_overrides": {},
+  "start_pool": "deeper_dark:amethyst_mineshaft/top",
+  "size": 5,
+  "start_height": {
+    "absolute": 55
+  },
+  "start_jigsaw_name": "deeper_dark:top",
+  "max_distance_from_center": 128,
+  "use_expansion_hack": false
+}

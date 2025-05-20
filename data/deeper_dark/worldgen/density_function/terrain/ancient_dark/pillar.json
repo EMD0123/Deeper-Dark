@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:add",
+  "argument1": 1,
+  "argument2": {
+    "type": "minecraft:clamp",
+    "input": {
+      "type": "minecraft:add",
+      "argument1": {
+        "type": "minecraft:spline",
+        "spline": {
+          "coordinate": {
+            "type": "minecraft:noise",
+            "noise": "deeper_dark:ancient_dark/ancient_dark",
+            "xz_scale": 20,
+            "y_scale": 0
+          },
+          "points": [
+            {
+              "location": -1,
+              "derivative": 0,
+              "value": -2
+            },
+            {
+              "location": -0.1,
+              "derivative": 0,
+              "value": -1.2
+            },
+            {
+              "location": 0.5,
+              "derivative": 0,
+              "value": -1
+            },
+            {
+              "location": 1.5,
+              "derivative": 0,
+              "value": 2
+            }
+          ]
+        }
+      },
+      "argument2": 0
+    },
+    "min": -1,
+    "max": 1
+  }
+}

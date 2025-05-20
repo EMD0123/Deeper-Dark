@@ -1,0 +1,7 @@
+execute as @r[nbt={Inventory:[{Slot:103b,components:{"minecraft:custom_data":{deeper_dark_enchantments:["clearsight"]}}}]}] at @s run function deeper_dark:datafixers/enchantment {slot:armor.head}
+execute as @r[nbt={Inventory:[{Slot:102b,components:{"minecraft:custom_data":{deeper_dark_enchantments:["sonic_boom"]}}}]}] at @s run function deeper_dark:datafixers/enchantment {slot:armor.chest}
+execute as @r[nbt={Inventory:[{Slot:101b,components:{"minecraft:custom_data":{deeper_dark_enchantments:["safefall"]}}}]}] at @s run function deeper_dark:datafixers/enchantment {slot:armor.legs}
+execute as @r[nbt={Inventory:[{Slot:100b,components:{"minecraft:custom_data":{deeper_dark_enchantments:["darkspeed"]}}}]}] at @s run function deeper_dark:datafixers/enchantment {slot:armor.feet}
+execute as @r[nbt={Inventory:[{Slot:-106b,components:{"minecraft:custom_data":{deeper_dark_enchantments:["resonate"]}}}]}] at @s run function deeper_dark:datafixers/enchantment {slot:weapon.offhand}
+execute as @r[nbt={SelectedItem:{components:{"minecraft:custom_data":{deeper_dark_enchantments:["shrieker_sense"]}}}}] at @s run function deeper_dark:datafixers/enchantment {slot:weapon.mainhand}
+execute as @r[nbt={SelectedItem:{components:{"minecraft:custom_data":{deeper_dark_enchanted_book: 1b}}}}] at @s run function deeper_dark:datafixers/enchantment {slot:weapon.mainhand}

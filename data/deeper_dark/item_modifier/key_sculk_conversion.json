@@ -1,0 +1,85 @@
+[
+  {
+    "function": "minecraft:copy_custom_data",
+    "source": "this",
+    "ops": [
+      {
+        "source": "Pos[0]",
+        "target": "deeper_dark.EntrancePosition.x",
+        "op": "replace"
+      },
+      {
+        "source": "Pos[1]",
+        "target": "deeper_dark.EntrancePosition.y",
+        "op": "replace"
+      },
+      {
+        "source": "Pos[2]",
+        "target": "deeper_dark.EntrancePosition.z",
+        "op": "replace"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:copy_custom_data",
+    "source": {
+      "type": "minecraft:storage",
+      "source": "deeper_dark:data"
+    },
+    "ops": [
+      {
+        "source": "dimension",
+        "target": "deeper_dark.EntrancePosition.dim",
+        "op": "replace"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:enchantment_glint_override": true
+    }
+  },
+  {
+    "function": "minecraft:set_lore",
+    "entity": "this",
+    "lore": [
+      [
+        {
+          "score": {
+            "objective": "deeper_dark.var",
+            "name": "x"
+          },
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": " "
+        },
+        {
+          "score": {
+            "objective": "deeper_dark.var",
+            "name": "y"
+          }
+        },
+        {
+          "text": " "
+        },
+        {
+          "score": {
+            "objective": "deeper_dark.var",
+            "name": "z"
+          }
+        },
+        {
+          "text": " "
+        },
+        {
+          "storage": "deeper_dark:data",
+          "nbt": "dimension"
+        }
+      ]
+    ],
+    "mode": "append"
+  }
+]

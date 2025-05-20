@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:spline",
+  "spline": {
+    "coordinate": {
+      "type": "minecraft:add",
+      "argument1": {
+        "type": "minecraft:clamp",
+        "input": {
+          "type": "minecraft:noise",
+          "noise": "deeper_dark:caves/spaghetti_3",
+          "xz_scale": 0.05,
+          "y_scale": 0
+        },
+        "min": -1,
+        "max": 1
+      },
+      "argument2": {
+        "type": "minecraft:y_clamped_gradient",
+        "from_y": -120,
+        "to_y": 120,
+        "from_value": 2,
+        "to_value": -2
+      }
+    },
+    "points": [
+      {
+        "location": -0.2,
+        "derivative": 0,
+        "value": 1
+      },
+      {
+        "location": 0,
+        "derivative": 0,
+        "value": -1
+      },
+      {
+        "location": 0.2,
+        "derivative": 0,
+        "value": 1
+      }
+    ]
+  }
+}

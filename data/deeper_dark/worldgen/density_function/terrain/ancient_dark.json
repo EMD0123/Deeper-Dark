@@ -1,0 +1,67 @@
+{
+  "type": "minecraft:add",
+  "argument1": {
+    "type": "minecraft:add",
+    "argument1": {
+      "type": "minecraft:spline",
+      "spline": {
+        "coordinate": "deeper_dark:continents",
+        "points": [
+          {
+            "location": -2,
+            "derivative": 0,
+            "value": 0
+          },
+          {
+            "location": -0.57,
+            "derivative": 0,
+            "value": 0
+          },
+          {
+            "location": -0.55,
+            "derivative": 0,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "argument2": {
+      "type": "minecraft:spline",
+      "spline": {
+        "coordinate": "deeper_dark:temperature",
+        "points": [
+          {
+            "location": 0.45,
+            "derivative": 0,
+            "value": 1
+          },
+          {
+            "location": 0.47,
+            "derivative": 0,
+            "value": 0
+          },
+          {
+            "location": 0.73,
+            "derivative": 0,
+            "value": 0
+          },
+          {
+            "location": 0.75,
+            "derivative": 0,
+            "value": 1
+          }
+        ]
+      }
+    }
+  },
+  "argument2": {
+    "type": "minecraft:clamp",
+    "input": {
+      "type": "minecraft:add",
+      "argument1": "deeper_dark:terrain/ancient_dark/caves",
+      "argument2": "deeper_dark:terrain/ancient_dark/pillar"
+    },
+    "min": -1,
+    "max": 1
+  }
+}

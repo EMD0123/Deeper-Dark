@@ -1,0 +1,2 @@
+data merge entity @s {width:3f,height:3f,Tags:["deeper_dark.shock","deeper_dark.particle"],brightness:{sky:15,block:15},background:0,Rotation:[0F,-90F],transformation:{translation:[-0.018f,-0.146f,0f]},text:'[{"color":"#00ffff","text":"◯"}]'}
+tp @s ~ ~ ~ facing ^ ^ ^1

@@ -1,0 +1,41 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "deeper_dark:ancient_fortress/tower_1",
+        "processors": "deeper_dark:ancient_fortress_wall"
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "deeper_dark:ancient_fortress/wall_end_1",
+        "processors": "deeper_dark:ancient_fortress_wall"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "deeper_dark:ancient_fortress/wall_end_2",
+        "processors": "deeper_dark:ancient_fortress_wall"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "deeper_dark:ancient_fortress/wall_end_3",
+        "processors": "deeper_dark:ancient_fortress_wall"
+      }
+    }
+  ]
+}

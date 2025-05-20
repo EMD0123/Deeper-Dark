@@ -1,0 +1,89 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:deepslate"
+    },
+    "title": {
+      "text": "Spelunker"
+    },
+    "description": {
+      "text": "Visit Every Biome in the Deeper Dark"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "deeper_dark:root",
+  "criteria": {
+    "a": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "deeper_dark:deeper_dark"
+          }
+        }
+      }
+    },
+    "b": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "deeper_dark:volcanic_caverns"
+          }
+        }
+      }
+    },
+    "c": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "deeper_dark:amethyst_mines"
+          }
+        }
+      }
+    },
+    "d": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "deeper_dark:deep_oasis"
+          }
+        }
+      }
+    },
+    "e": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "deeper_dark:deeper_dark_cavern"
+          }
+        }
+      }
+    },
+    "f": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "deeper_dark:obsidian_barrier"
+          }
+        }
+      }
+    },
+    "g": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "deeper_dark:ancient_dark"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,4 @@
+execute as @n[type=minecraft:marker,tag=deeper_dark.portal_marker,tag=!deeper_dark.datafixed3,predicate=minecraft:in_overworld] unless data entity @s data.location.dim run data modify entity @s data.location.dim set value "minecraft:overworld"
+execute as @n[type=minecraft:marker,tag=deeper_dark.portal_marker,tag=!deeper_dark.datafixed3,predicate=deeper_dark:in_deeper_dark] unless data entity @s data.location.dim run data modify entity @s data.location.dim set value "deeper_dark:deeper_dark"
+execute as @n[type=minecraft:marker,tag=deeper_dark.portal_marker,tag=!deeper_dark.datafixed3,predicate=minecraft:in_overworld] run tag @s add deeper_dark.datafixed3
+execute as @n[type=minecraft:marker,tag=deeper_dark.portal_marker,tag=!deeper_dark.datafixed3,predicate=deeper_dark:in_deeper_dark] run tag @s add deeper_dark.datafixed3

@@ -1,0 +1,14 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "deeper_dark:ancient_village/center_pit",
+        "processors": "deeper_dark:ancient_fortress_wall"
+      }
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "fallback": "deeper_dark:amethyst_mineshaft/storage_parts/bottom",
+  "elements": [
+    {
+      "weight": 8,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "deeper_dark:amethyst_mineshaft/storage_parts/barrels",
+        "processors": "deeper_dark:amethyst_mineshaft_storage_part"
+      }
+    },
+    {
+      "weight": 8,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "deeper_dark:amethyst_mineshaft/storage_parts/barrel_shelf",
+        "processors": "deeper_dark:amethyst_mineshaft_storage_part"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "deeper_dark:amethyst_mineshaft/storage_parts/barrel_pile_1",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "deeper_dark:amethyst_mineshaft/storage_parts/barrel_pile_2",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 8,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "deeper_dark:amethyst_mineshaft/storage_parts/empty_shelf",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "deeper_dark:amethyst_mineshaft/storage_parts/chests_1",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "deeper_dark:amethyst_mineshaft/storage_parts/chests_2",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "deeper_dark:amethyst_mineshaft/storage_parts/chests_3",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "deeper_dark:amethyst_mineshaft/storage_parts/chests_4",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "deeper_dark:amethyst_mineshaft/storage_parts/chest_shelf_1",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "deeper_dark:amethyst_mineshaft/storage_parts/chest_shelf_2",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "deeper_dark:amethyst_mineshaft/storage_parts/chest_shelf_3",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "deeper_dark:amethyst_mineshaft/storage_parts/chest_shelf_4",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "deeper_dark:amethyst_mineshaft/storage_parts/blast_furnaces",
+        "processors": "deeper_dark:amethyst_mineshaft_storage_part"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "deeper_dark:amethyst_mineshaft/storage_parts/crafting_table",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

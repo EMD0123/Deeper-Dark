@@ -1,0 +1,1 @@
+function deeper_dark:sculk_converter_recipe_types/replace_item_id {replace:"minecraft:amethyst_shard",with:"minecraft:echo_shard",flames:0,xp:1,conversion_time:20}

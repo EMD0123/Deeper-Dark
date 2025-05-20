@@ -1,0 +1,1 @@
+execute as @r[nbt={SelectedItem:{id:"minecraft:echo_shard",components:{"minecraft:custom_data":{DeeperDarkKey:1b}}}}] at @s run function deeper_dark:datafixers/key

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "deeper_dark:ancient_dark",
+  "step": "underground_decoration",
+  "spawn_overrides": {},
+  "start_pool": "deeper_dark:laboratory/base",
+  "size": 7,
+  "start_height": {
+    "absolute": -58
+  },
+  "start_jigsaw_name": "minecraft:anchor",
+  "max_distance_from_center": 128,
+  "use_expansion_hack": false
+}

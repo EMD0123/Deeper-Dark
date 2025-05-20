@@ -1,0 +1,71 @@
+{
+  "fallback": "deeper_dark:ancient_fortress/walls/chests",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:list_pool_element",
+        "projection": "rigid",
+        "elements": [
+          {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "location": "deeper_dark:ancient_fortress/walls/chests",
+            "processors": "deeper_dark:ancient_fortress_chests"
+          },
+          {
+            "element_type": "minecraft:feature_pool_element",
+            "projection": "rigid",
+            "feature": "deeper_dark:sculk_decoration_ancient_fortress"
+          }
+        ]
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:list_pool_element",
+        "projection": "rigid",
+        "elements": [
+          {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "location": "deeper_dark:ancient_fortress/walls/chest_1",
+            "processors": "minecraft:empty"
+          },
+          {
+            "element_type": "minecraft:feature_pool_element",
+            "projection": "rigid",
+            "feature": "deeper_dark:sculk_decoration_ancient_fortress"
+          }
+        ]
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:list_pool_element",
+        "projection": "rigid",
+        "elements": [
+          {
+            "element_type": "minecraft:single_pool_element",
+            "projection": "rigid",
+            "location": "deeper_dark:ancient_fortress/walls/chest_2",
+            "processors": "minecraft:empty"
+          },
+          {
+            "element_type": "minecraft:feature_pool_element",
+            "projection": "rigid",
+            "feature": "deeper_dark:sculk_decoration_ancient_fortress"
+          }
+        ]
+      }
+    },
+    {
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:empty_pool_element"
+      }
+    }
+  ]
+}

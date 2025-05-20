@@ -1,0 +1,23 @@
+{
+  "fallback": "deeper_dark:amethyst_mineshaft/shaft_end",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "deeper_dark:amethyst_mineshaft/shaft",
+        "processors": "deeper_dark:amethyst_mineshaft"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "deeper_dark:amethyst_mineshaft/shaft_end",
+        "processors": "deeper_dark:amethyst_mineshaft_end"
+      }
+    }
+  ]
+}

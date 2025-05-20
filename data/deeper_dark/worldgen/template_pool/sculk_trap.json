@@ -1,0 +1,62 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "deeper_dark:sculk_trap",
+        "processors": {
+          "processors": [
+            {
+              "processor_type": "minecraft:protected_blocks",
+              "value": "#minecraft:features_cannot_replace"
+            },
+            {
+              "processor_type": "minecraft:rule",
+              "rules": [
+                {
+                  "location_predicate": {
+                    "predicate_type": "minecraft:tag_match",
+                    "tag": "minecraft:mineable/pickaxe"
+                  },
+                  "input_predicate": {
+                    "predicate_type": "minecraft:always_true"
+                  },
+                  "output_state": {
+                    "Name": "minecraft:deepslate"
+                  }
+                },
+                {
+                  "location_predicate": {
+                    "predicate_type": "minecraft:tag_match",
+                    "tag": "minecraft:mineable/shovel"
+                  },
+                  "input_predicate": {
+                    "predicate_type": "minecraft:always_true"
+                  },
+                  "output_state": {
+                    "Name": "minecraft:gravel"
+                  }
+                },
+                {
+                  "location_predicate": {
+                    "predicate_type": "minecraft:tag_match",
+                    "tag": "minecraft:mineable/axe"
+                  },
+                  "input_predicate": {
+                    "predicate_type": "minecraft:always_true"
+                  },
+                  "output_state": {
+                    "Name": "minecraft:deepslate"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

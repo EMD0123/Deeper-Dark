@@ -1,0 +1,6 @@
+{
+  "condition": "minecraft:location_check",
+  "predicate": {
+    "structures": "deeper_dark:amethyst_mineshaft"
+  }
+}

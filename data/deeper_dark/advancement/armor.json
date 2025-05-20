@@ -1,0 +1,78 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:enchanted_book"
+    },
+    "title": {
+      "text": "Cover Me in Sculk"
+    },
+    "description": {
+      "text": "Get a full suit of Max-level Sculk-enchanted Armor"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "deeper_dark:trap",
+  "criteria": {
+    "armor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "deeper_dark:clearsight"
+                }
+              ]
+            }
+          },
+          {
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "deeper_dark:sonic_boom"
+                }
+              ]
+            }
+          },
+          {
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "deeper_dark:safefall",
+                  "levels": {
+                    "min": 3
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "deeper_dark:darkspeed",
+                  "levels": {
+                    "min": 3
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "armor"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  }
+}

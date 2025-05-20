@@ -1,0 +1,68 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "deeper_dark:ancient_village/structure_1",
+        "processors": "deeper_dark:ancient_fortress_wall"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "deeper_dark:ancient_village/structure_2",
+        "processors": "deeper_dark:ancient_fortress_wall"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "deeper_dark:ancient_village/structure_3",
+        "processors": "deeper_dark:ancient_fortress_wall"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "deeper_dark:ancient_village/structure_4",
+        "processors": "deeper_dark:ancient_fortress_wall"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "deeper_dark:ancient_village/structure_5",
+        "processors": "deeper_dark:ancient_fortress_wall"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "deeper_dark:ancient_village/structure_6",
+        "processors": "deeper_dark:ancient_fortress_wall"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "deeper_dark:ancient_village/structure_7",
+        "processors": "deeper_dark:ancient_fortress_wall"
+      }
+    }
+  ]
+}

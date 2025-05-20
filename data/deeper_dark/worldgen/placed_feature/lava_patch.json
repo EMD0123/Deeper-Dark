@@ -1,0 +1,249 @@
+{
+  "feature": {
+    "type": "minecraft:disk",
+    "config": {
+      "state_provider": {
+        "fallback": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:deepslate"
+          }
+        },
+        "rules": [
+          {
+            "if_true": {
+              "type": "minecraft:all_of",
+              "predicates": [
+                {
+                  "type": "minecraft:matching_blocks",
+                  "offset": [
+                    0,
+                    1,
+                    0
+                  ],
+                  "blocks": [
+                    "minecraft:air",
+                    "minecraft:sculk_vein",
+                    "minecraft:sculk_shrieker"
+                  ]
+                },
+                {
+                  "type": "minecraft:not",
+                  "predicate": {
+                    "type": "minecraft:matching_blocks",
+                    "offset": [
+                      1,
+                      0,
+                      0
+                    ],
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:sculk_vein",
+                      "minecraft:sculk_shrieker"
+                    ]
+                  }
+                },
+                {
+                  "type": "minecraft:not",
+                  "predicate": {
+                    "type": "minecraft:matching_blocks",
+                    "offset": [
+                      0,
+                      0,
+                      1
+                    ],
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:sculk_vein",
+                      "minecraft:sculk_shrieker"
+                    ]
+                  }
+                },
+                {
+                  "type": "minecraft:not",
+                  "predicate": {
+                    "type": "minecraft:matching_blocks",
+                    "offset": [
+                      -1,
+                      0,
+                      0
+                    ],
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:sculk_vein",
+                      "minecraft:sculk_shrieker"
+                    ]
+                  }
+                },
+                {
+                  "type": "minecraft:not",
+                  "predicate": {
+                    "type": "minecraft:matching_blocks",
+                    "offset": [
+                      0,
+                      0,
+                      -1
+                    ],
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:sculk_vein",
+                      "minecraft:sculk_shrieker"
+                    ]
+                  }
+                },
+                {
+                  "type": "minecraft:not",
+                  "predicate": {
+                    "type": "minecraft:matching_blocks",
+                    "offset": [
+                      0,
+                      -1,
+                      0
+                    ],
+                    "blocks": [
+                      "minecraft:air",
+                      "minecraft:sculk_vein",
+                      "minecraft:sculk_shrieker"
+                    ]
+                  }
+                }
+              ]
+            },
+            "then": {
+              "type": "minecraft:noise_provider",
+              "seed": 0,
+              "noise": {
+                "firstOctave": -4,
+                "amplitudes": [
+                  1,
+                  1
+                ]
+              },
+              "scale": 1,
+              "states": [
+                {
+                  "Name": "minecraft:deepslate"
+                },
+                {
+                  "Name": "minecraft:lava"
+                },
+                {
+                  "Name": "minecraft:lava"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "target": {
+        "type": "minecraft:all_of",
+        "predicates": [
+          {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              0,
+              0,
+              0
+            ],
+            "blocks": [
+              "minecraft:deepslate",
+              "minecraft:magma_block"
+            ]
+          },
+          {
+            "type": "minecraft:matching_blocks",
+            "offset": [
+              0,
+              2,
+              0
+            ],
+            "blocks": "air"
+          },
+          {
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                1,
+                -1,
+                0
+              ],
+              "blocks": [
+                "air",
+                "minecraft:sculk_vein"
+              ]
+            }
+          },{
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                0,
+                -1,
+                1
+              ],
+              "blocks": [
+                "air",
+                "minecraft:sculk_vein"
+              ]
+            }
+          },{
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                -1,
+                -1,
+                0
+              ],
+              "blocks": [
+                "air",
+                "minecraft:sculk_vein"
+              ]
+            }
+          },{
+            "type": "minecraft:not",
+            "predicate": {
+              "type": "minecraft:matching_blocks",
+              "offset": [
+                0,
+                -1,
+                -1
+              ],
+              "blocks": [
+                "air",
+                "minecraft:sculk_vein"
+              ]
+            }
+          }
+        ]
+      },
+      "radius": 8,
+      "half_height": 4
+    }
+  },
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 32
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "above_bottom": 10
+        },
+        "max_inclusive": {
+          "below_top": 10
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

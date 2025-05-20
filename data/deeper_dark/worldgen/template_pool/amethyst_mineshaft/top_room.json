@@ -1,0 +1,23 @@
+{
+  "fallback": "deeper_dark:amethyst_mineshaft/top_room_end",
+  "elements": [
+    {
+      "weight": 20,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "deeper_dark:amethyst_mineshaft/top_room",
+        "processors": "minecraft:ancient_city_start_degradation"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "deeper_dark:amethyst_mineshaft/top_room_end",
+        "processors": "minecraft:ancient_city_start_degradation"
+      }
+    }
+  ]
+}

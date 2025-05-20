@@ -1,0 +1,17 @@
+{"type":"minecraft:command","pools":[{"rolls":1,"entries":[{"type":"minecraft:item","name":
+
+"minecraft:sculk_shrieker",
+
+  "functions":[{"function":"minecraft:set_components",
+
+"components":{
+  "minecraft:custom_name": "{\"text\":\"Activated Sculk Shrieker\",\"italic\":false}",
+  "minecraft:item_name": "{\"text\":\"Activated Sculk Shrieker\"}",
+  "minecraft:enchantment_glint_override": true,
+  "minecraft:rarity":"uncommon",
+  "minecraft:block_state": {
+    "can_summon": "true"
+  }
+}
+
+}]}]}]}

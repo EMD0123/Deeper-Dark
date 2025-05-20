@@ -1,0 +1,22 @@
+{"type":"minecraft:command","pools":[{"rolls":1,"entries":[{"type":"minecraft:item","name":
+
+"minecraft:splash_potion",
+
+  "functions":[{"function":"minecraft:set_components",
+
+"components":{
+  "minecraft:custom_name": "{\"text\":\"Splash Potion of Blindness\",\"italic\":false}",
+  "minecraft:item_name": "{\"text\":\"Splash Potion of Blindness\"}",
+  "minecraft:potion_contents": {
+    "custom_color": 1118481,
+    "custom_effects": [
+      {
+        "id": "minecraft:blindness",
+        "amplifier": 0,
+        "duration": 1200
+      }
+    ]
+  }
+}
+
+}]}]}]}

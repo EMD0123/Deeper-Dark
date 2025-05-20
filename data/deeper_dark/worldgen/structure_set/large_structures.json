@@ -1,0 +1,26 @@
+{
+  "structures": [
+    {
+      "structure": "deeper_dark:ancient_fortress",
+      "weight": 1
+    },
+    {
+      "structure": "deeper_dark:amethyst_mineshaft",
+      "weight": 1
+    },
+    {
+      "structure": "deeper_dark:ancient_village",
+      "weight": 1
+    },
+    {
+      "structure": "deeper_dark:laboratory",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 20083232,
+    "spacing": 24,
+    "separation": 15
+  }
+}

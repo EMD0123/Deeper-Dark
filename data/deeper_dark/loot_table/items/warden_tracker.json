@@ -1,0 +1,22 @@
+{"type":"minecraft:command","pools":[{"rolls":1,"entries":[{"type":"minecraft:item","name":
+
+"minecraft:compass",
+
+  "functions":[{"function":"minecraft:set_components",
+
+"components":{
+  "minecraft:custom_name": "{\"text\":\"Warden Tracker\",\"italic\":false}",
+  "minecraft:item_name": "{\"text\":\"Warden Tracker\"}",
+  "minecraft:rarity":"uncommon",
+  "minecraft:lore": [
+    "{\"text\":\"Hold In Your Hand to Use\",\"color\":\"gray\",\"italic\":false}"
+  ],
+  "minecraft:lodestone_tracker": {
+    "tracked": false
+  },
+  "minecraft:custom_data": {
+    "deeper_dark_warden_tracker": 1
+  }
+}
+
+}]}]}]}

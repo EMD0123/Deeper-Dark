@@ -1,0 +1,20 @@
+{
+  "fallback": "deeper_dark:amethyst_mineshaft/storage_parts/middle",
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "deeper_dark:amethyst_mineshaft/storage_parts/barrel_shelf",
+        "processors": "deeper_dark:amethyst_mineshaft_storage_part"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:empty_pool_element"
+      }
+    }
+  ]
+}

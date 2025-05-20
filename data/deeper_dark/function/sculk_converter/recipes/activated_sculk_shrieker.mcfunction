@@ -1,0 +1,1 @@
+function deeper_dark:sculk_converter_recipe_types/replace_item_with_loot {replace:"minecraft:sculk_shrieker",with:"deeper_dark:items/activated_sculk_shrieker",flames:8,xp:15,conversion_time:300}

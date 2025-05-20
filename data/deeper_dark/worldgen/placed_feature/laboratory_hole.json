@@ -1,0 +1,141 @@
+{
+  "feature": {
+    "config": {
+      "targets": [
+        {
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "deepslate_tiles"
+          },
+          "state": {
+            "Name": "air"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "cracked_deepslate_tiles"
+          },
+          "state": {
+            "Name": "air"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block": "deepslate_tile_slab",
+            "block_state": {
+              "Name": "minecraft:deepslate_tile_slab",
+              "Properties": {
+                "type": "top"
+              }
+            }
+          },
+          "state": {
+            "Name": "air"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "minecraft:blockstate_match",
+            "block": "deepslate_tile_slab",
+            "block_state": {
+              "Name": "minecraft:deepslate_tile_slab",
+              "Properties": {
+                "type": "bottom"
+              }
+            }
+          },
+          "state": {
+            "Name": "air"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:soul_wall_torch"
+          },
+          "state": {
+            "Name": "air"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "polished_deepslate_stairs"
+          },
+          "state": {
+            "Name": "air"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "polished_deepslate_wall"
+          },
+          "state": {
+            "Name": "air"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "deepslate_bricks"
+          },
+          "state": {
+            "Name": "air"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "cracked_deepslate_bricks"
+          },
+          "state": {
+            "Name": "air"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "iron_bars"
+          },
+          "state": {
+            "Name": "air"
+          }
+        },
+        {
+          "target": {
+            "predicate_type": "minecraft:block_match",
+            "block": "ladder"
+          },
+          "state": {
+            "Name": "air"
+          }
+        }
+      ],
+      "size": 64,
+      "discard_chance_on_air_exposure": 0
+    },
+    "type": "minecraft:ore"
+  },
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 2
+    },
+    {
+      "type": "minecraft:random_offset",
+      "xz_spread": {
+        "type": "minecraft:uniform",
+        "min_inclusive": -6,
+        "max_inclusive": 6
+      },
+      "y_spread": {
+        "type": "minecraft:uniform",
+        "min_inclusive": -6,
+        "max_inclusive": 6
+      }
+    }
+  ]
+}

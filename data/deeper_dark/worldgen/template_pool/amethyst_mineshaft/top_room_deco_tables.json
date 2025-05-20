@@ -1,0 +1,110 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "deeper_dark:amethyst_mineshaft/top_room_deco_tables/table_1",
+        "processors": "deeper_dark:ancient_fortress_chests"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "deeper_dark:amethyst_mineshaft/top_room_deco_tables/table_2",
+        "processors": "deeper_dark:ancient_fortress_chests"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "deeper_dark:amethyst_mineshaft/top_room_deco_tables/table_3",
+        "processors": "deeper_dark:ancient_fortress_chests"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "deeper_dark:amethyst_mineshaft/top_room_deco_tables/table_4",
+        "processors": "deeper_dark:ancient_fortress_chests"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "deeper_dark:amethyst_mineshaft/top_room_deco_tables/table_5",
+        "processors": "deeper_dark:ancient_fortress_chests"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "deeper_dark:amethyst_mineshaft/top_room_deco_tables/table_6",
+        "processors": "deeper_dark:ancient_fortress_chests"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "deeper_dark:amethyst_mineshaft/top_room_deco_tables/table_7",
+        "processors": "deeper_dark:ancient_fortress_chests"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "deeper_dark:amethyst_mineshaft/top_room_deco_tables/table_8",
+        "processors": "deeper_dark:ancient_fortress_chests"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "deeper_dark:amethyst_mineshaft/top_room_deco_tables/table_9",
+        "processors": "deeper_dark:ancient_fortress_chests"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "deeper_dark:amethyst_mineshaft/top_room_deco_tables/table_10",
+        "processors": "deeper_dark:ancient_fortress_chests"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "deeper_dark:amethyst_mineshaft/top_room_deco_tables/table_11",
+        "processors": "deeper_dark:ancient_fortress_chests"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:empty_pool_element"
+      }
+    }
+  ]
+}

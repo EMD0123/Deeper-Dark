@@ -1,0 +1,38 @@
+{
+  "fallback": "deeper_dark:ancient_fortress/walls/tower_stairs",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:empty_pool_element"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "deeper_dark:ancient_fortress/walls/tower_stairs_1",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "deeper_dark:ancient_fortress/walls/tower_stairs_2",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "deeper_dark:ancient_fortress/walls/tower_stairs_3",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

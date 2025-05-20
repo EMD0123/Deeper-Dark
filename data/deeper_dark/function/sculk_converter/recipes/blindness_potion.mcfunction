@@ -1,0 +1,2 @@
+execute unless data entity @s {data:{Item:{id:"minecraft:potion",components:{"minecraft:potion_contents":{potion:"minecraft:awkward"}}}}} run return fail
+function deeper_dark:sculk_converter_recipe_types/replace_item_with_loot {replace:"minecraft:potion",with:"deeper_dark:items/splash_potion_of_blindness",flames:3,xp:5,conversion_time:60}

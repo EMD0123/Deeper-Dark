@@ -1,0 +1,35 @@
+{
+  "description": {
+    "text": "Safefall",
+    "color": "#007A8A"
+  },
+  "supported_items": "#minecraft:enchantable/leg_armor",
+  "weight": 3,
+  "max_level": 3,
+  "min_cost": {
+    "base": 25,
+    "per_level_above_first": 25
+  },
+  "max_cost": {
+    "base": 75,
+    "per_level_above_first": 25
+  },
+  "anvil_cost": 4,
+  "slots": [
+    "legs"
+  ],
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "id": "deeper_dark:enchantment.safefall",
+        "attribute": "minecraft:safe_fall_distance",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 10,
+          "per_level_above_first": 5
+        },
+        "operation": "add_value"
+      }
+    ]
+  }
+}

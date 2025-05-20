@@ -1,0 +1,104 @@
+[
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:enchantments": {}
+    }
+  },
+  {
+    "function": "minecraft:enchant_with_levels",
+    "levels": {
+      "min": {
+        "type": "minecraft:score",
+        "target": "this",
+        "score": "deeper_dark.sculk_converter.flames",
+        "scale": 3
+      },
+      "max": {
+        "type": "minecraft:score",
+        "target": "this",
+        "score": "deeper_dark.sculk_converter.flames",
+        "scale": 5
+      }
+    },
+    "options": "#deeper_dark:enchantment_addition",
+    "conditions": [
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "deeper_dark.sculk_converter.flames": {
+            "min": 0,
+            "max": 7
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:enchant_randomly",
+    "options": "#deeper_dark:enchantment_addition",
+    "only_compatible": true,
+    "conditions": [
+      {
+        "condition": "minecraft:entity_scores",
+        "entity": "this",
+        "scores": {
+          "deeper_dark.sculk_converter.flames": {
+            "min": 8
+          }
+        }
+      }
+    ]
+  },
+  {
+    "function": "minecraft:filtered",
+    "item_filter": {
+      "items": "minecraft:book"
+    },
+    "modifier": [
+      {
+        "function": "minecraft:set_components",
+        "components": {
+          "minecraft:stored_enchantments": {}
+        }
+      },
+      {
+        "function": "minecraft:enchant_with_levels",
+        "levels": {
+          "min": {
+            "type": "minecraft:score",
+            "target": "this",
+            "score": "deeper_dark.sculk_converter.flames",
+            "scale": 4
+          },
+          "max": {
+            "type": "minecraft:score",
+            "target": "this",
+            "score": "deeper_dark.sculk_converter.flames",
+            "scale": 5
+          }
+        },
+        "options": "#deeper_dark:enchantment_addition"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:filtered",
+    "item_filter": {
+      "predicates": {
+        "minecraft:enchantments": [
+          {
+            "enchantments": "#minecraft:curse"
+          }
+        ]
+      }
+    },
+    "modifier": {
+      "function": "minecraft:set_components",
+      "components": {
+        "minecraft:enchantments": {}
+      }
+    }
+  }
+]

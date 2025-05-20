@@ -1,0 +1,58 @@
+{
+  "description": {
+    "text": "Clearsight",
+    "color": "#007A8A"
+  },
+  "supported_items": "#minecraft:enchantable/head_armor",
+  "weight": 3,
+  "max_level": 1,
+  "min_cost": {
+    "base": 25,
+    "per_level_above_first": 25
+  },
+  "max_cost": {
+    "base": 75,
+    "per_level_above_first": 25
+  },
+  "anvil_cost": 4,
+  "slots": [
+    "head"
+  ],
+  "effects": {
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "deeper_dark:armor/clearsight"
+        },
+        "requirements": {
+          "condition": "minecraft:any_of",
+          "terms": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "effects": {
+                  "minecraft:darkness": {
+                    "amplifier": 0
+                  }
+                }
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "effects": {
+                  "minecraft:blindness": {
+                    "amplifier": 0
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+#particle minecraft:sculk_soul ~ ~ ~ 0 0 0 0.1 1
+scoreboard players set @s deeper_dark.var 0
+#tellraw @p {"score":{"name":"@s","objective":"deeper_dark.var"}}
+
+execute unless entity @s[distance=0...9] if score @s deeper_dark.var matches 0 positioned ^ ^1 ^ align xyz positioned ~.5 ~.5 ~.5 if block ~ ~ ~ minecraft:reinforced_deepslate rotated ~ ~-90 run function deeper_dark:portal
+execute unless entity @s[distance=0...9] if score @s deeper_dark.var matches 0 positioned ^ ^1 ^ align xyz positioned ~.5 ~.5 ~.5 if block ~ ~ ~ minecraft:reinforced_deepslate run scoreboard players set @s deeper_dark.var 1
+
+execute unless entity @s[distance=0...9] if score @s deeper_dark.var matches 0 positioned ^ ^1 ^1 align xyz positioned ~.5 ~.5 ~.5 if block ~ ~ ~ minecraft:reinforced_deepslate run function deeper_dark:portal
+execute unless entity @s[distance=0...9] if score @s deeper_dark.var matches 0 positioned ^ ^1 ^1 align xyz positioned ~.5 ~.5 ~.5 if block ~ ~ ~ minecraft:reinforced_deepslate run scoreboard players set @s deeper_dark.var 1
+
+execute unless entity @s[distance=0...9] unless entity @s[distance=0...9] if score @s deeper_dark.var matches 0 positioned ^ ^ ^1 align xyz positioned ~.5 ~.5 ~.5 if block ~ ~ ~ minecraft:reinforced_deepslate run function deeper_dark:portal
+execute unless entity @s[distance=0...9] unless entity @s[distance=0...9] if score @s deeper_dark.var matches 0 positioned ^ ^ ^1 align xyz positioned ~.5 ~.5 ~.5 if block ~ ~ ~ minecraft:reinforced_deepslate run scoreboard players set @s deeper_dark.var 1
+
+execute unless entity @s[distance=0...9] if score @s deeper_dark.var matches 0 positioned ^ ^-1 ^1 align xyz positioned ~.5 ~.5 ~.5 if block ~ ~ ~ minecraft:reinforced_deepslate run function deeper_dark:portal
+execute unless entity @s[distance=0...9] if score @s deeper_dark.var matches 0 positioned ^ ^-1 ^1 align xyz positioned ~.5 ~.5 ~.5 if block ~ ~ ~ minecraft:reinforced_deepslate run scoreboard players set @s deeper_dark.var 1
+
+execute unless entity @s[distance=0...9] if score @s deeper_dark.var matches 0 positioned ^ ^-1 ^ align xyz positioned ~.5 ~.5 ~.5 if block ~ ~ ~ minecraft:reinforced_deepslate rotated ~ ~90 run function deeper_dark:portal
+execute unless entity @s[distance=0...9] if score @s deeper_dark.var matches 0 positioned ^ ^-1 ^ align xyz positioned ~.5 ~.5 ~.5 if block ~ ~ ~ minecraft:reinforced_deepslate run scoreboard players set @s deeper_dark.var 1
+
+execute if entity @s[distance=0...9] run tag @s add deeper_dark.portal

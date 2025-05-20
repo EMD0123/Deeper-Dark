@@ -1,0 +1,1 @@
+$damage @s $(damage) deeper_dark:mob_sonic_boom by @e[tag=deeper_dark.shockwave,limit=1,sort=nearest]

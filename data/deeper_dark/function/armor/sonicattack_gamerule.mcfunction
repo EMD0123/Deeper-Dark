@@ -1,0 +1,1 @@
+$damage @s $(sonic_boom_damage) deeper_dark:player_sonic_boom by @n[tag=deeper_dark.selected]

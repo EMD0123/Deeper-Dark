@@ -1,0 +1,60 @@
+{
+  "description": {
+    "text": "Sonic Boom",
+    "color": "#007A8A"
+  },
+  "supported_items": "#minecraft:enchantable/chest_armor",
+  "weight": 3,
+  "max_level": 1,
+  "min_cost": {
+    "base": 25,
+    "per_level_above_first": 25
+  },
+  "max_cost": {
+    "base": 75,
+    "per_level_above_first": 25
+  },
+  "anvil_cost": 4,
+  "slots": [
+    "chest"
+  ],
+  "effects": {
+    "minecraft:tick": [
+      {
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:set_block_properties",
+              "properties": {
+                "lit": "false"
+              }
+            },
+            {
+              "type": "minecraft:damage_entity",
+              "damage_type": "minecraft:generic_kill",
+              "min_damage": 1,
+              "max_damage": 1
+            }
+          ]
+        },
+        "requirements": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type": "minecraft:armor_stand",
+            "nbt": "{Tags:[\"deeper_dark.extinguish\"]}",
+            "location": {
+              "block": {
+                "blocks": "minecraft:soul_campfire",
+                "state": {
+                  "lit": "true"
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+}

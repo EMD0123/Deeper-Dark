@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:diamond_pickaxe",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "text": "Mined Under Matter"
+    },
+    "description": {
+      "text": "Instant-Mine Some Deepslate with an Undermine Enchanted Pickaxe"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "deeper_dark:converter",
+  "criteria": {
+    "criteria": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "criteria"
+    ]
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sculk_sensor"
+    },
+    "title": {
+      "text": "It's a Trap!"
+    },
+    "description": {
+      "text": "Open a Sculk Trap"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "deeper_dark:root",
+  "criteria": {
+    "open": {
+      "trigger": "minecraft:player_generates_container_loot",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "dimension": "deeper_dark:deeper_dark"
+              }
+            }
+          }
+        ],
+        "loot_table": "deeper_dark:sculk_trap"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "open"
+    ]
+  ]
+}

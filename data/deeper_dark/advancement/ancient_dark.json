@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "id": "sculk",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "text": "Deepest Dark"
+    },
+    "description": {
+      "text": "Dig Into the Ancient Dark, The Home Biome of the Sculk"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "deeper_dark:laboratory_compass",
+  "criteria": {
+    "a": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "location": {
+            "biomes": "deeper_dark:ancient_dark"
+          }
+        }
+      }
+    }
+  }
+}

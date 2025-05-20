@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:spyglass",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "title": {
+      "text": "Target Locked"
+    },
+    "description": {
+      "text": "Highlight a Sculk Shrieker with a Shrieker Sense Enchanted Spyglass"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "deeper_dark:converter",
+  "criteria": {
+    "criteria": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  }
+}

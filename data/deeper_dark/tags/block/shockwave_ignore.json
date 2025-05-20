@@ -1,0 +1,15 @@
+{
+  "values": [
+    "#minecraft:replaceable",
+    "minecraft:light",
+    "minecraft:sculk_sensor",
+    "minecraft:sculk_shrieker",
+    "minecraft:sculk_vein",
+    "minecraft:small_amethyst_bud",
+    "minecraft:medium_amethyst_bud",
+    "minecraft:large_amethyst_bud",
+    "minecraft:amethyst_cluster",
+    "minecraft:soul_torch",
+    "minecraft:calibrated_sculk_sensor"
+  ]
+}

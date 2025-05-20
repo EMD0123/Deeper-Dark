@@ -1,0 +1,1 @@
+function deeper_dark:sculk_converter_recipe_types/replace_item_id {replace:"minecraft:deepslate",with:"minecraft:reinforced_deepslate",flames:4,xp:30,conversion_time:1200}

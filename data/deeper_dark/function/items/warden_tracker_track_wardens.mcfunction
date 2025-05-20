@@ -1,0 +1,19 @@
+#setup
+execute if entity @e[type=minecraft:warden,distance=0..64] run data modify storage deeper_dark:data warden_tracker.dimension set from entity @s Dimension
+execute if entity @e[type=minecraft:warden,distance=0..64] store result storage deeper_dark:data warden_tracker.x int 1 run data get entity @e[type=minecraft:warden,limit=1,sort=nearest] Pos[0]
+execute if entity @e[type=minecraft:warden,distance=0..64] store result storage deeper_dark:data warden_tracker.y int 1 run data get entity @e[type=minecraft:warden,limit=1,sort=nearest] Pos[1]
+execute if entity @e[type=minecraft:warden,distance=0..64] store result storage deeper_dark:data warden_tracker.z int 1 run data get entity @e[type=minecraft:warden,limit=1,sort=nearest] Pos[2]
+#replace
+execute if entity @e[type=minecraft:warden,distance=0..64] if items entity @s weapon.mainhand minecraft:compass[minecraft:custom_data~{deeper_dark_warden_tracker:1b}] run data modify storage deeper_dark:data warden_tracker.slot set value weapon.mainhand
+execute if entity @e[type=minecraft:warden,distance=0..64] if items entity @s weapon.mainhand minecraft:compass[minecraft:custom_data~{deeper_dark_warden_tracker:1b}] if items entity @s weapon.mainhand minecraft:compass[minecraft:enchantment_glint_override] run playsound minecraft:item.lodestone_compass.lock player @a ~ ~ ~ .5 1
+execute if entity @e[type=minecraft:warden,distance=0..64] if items entity @s weapon.mainhand minecraft:compass[minecraft:custom_data~{deeper_dark_warden_tracker:1b}] run function deeper_dark:items/update_compass with storage deeper_dark:data warden_tracker
+execute if entity @e[type=minecraft:warden,distance=0..64] if items entity @s weapon.offhand minecraft:compass[minecraft:custom_data~{deeper_dark_warden_tracker:1b}] run data modify storage deeper_dark:data warden_tracker.slot set value weapon.offhand
+execute if entity @e[type=minecraft:warden,distance=0..64] if items entity @s weapon.offhand minecraft:compass[minecraft:custom_data~{deeper_dark_warden_tracker:1b}] if items entity @s weapon.offhand minecraft:compass[minecraft:enchantment_glint_override] run playsound minecraft:item.lodestone_compass.lock player @a ~ ~ ~ .5 1
+execute if entity @e[type=minecraft:warden,distance=0..64] if items entity @s weapon.offhand minecraft:compass[minecraft:custom_data~{deeper_dark_warden_tracker:1b}] run function deeper_dark:items/update_compass with storage deeper_dark:data warden_tracker
+
+#unlink
+execute unless entity @e[type=minecraft:warden,distance=0..64] if items entity @s weapon.mainhand minecraft:compass[minecraft:custom_data~{deeper_dark_warden_tracker:1b}] unless items entity @s weapon.mainhand minecraft:compass[minecraft:enchantment_glint_override] run playsound minecraft:item.lodestone_compass.lock player @a ~ ~ ~ .5 0
+execute unless entity @e[type=minecraft:warden,distance=0..64] if items entity @s weapon.mainhand minecraft:compass[minecraft:custom_data~{deeper_dark_warden_tracker:1b}] run item modify entity @s weapon.mainhand [{"function":"minecraft:set_components","components":{"minecraft:lodestone_tracker":{"tracked":false},"minecraft:enchantment_glint_override":false}}]
+execute unless entity @e[type=minecraft:warden,distance=0..64] if items entity @s weapon.offhand minecraft:compass[minecraft:custom_data~{deeper_dark_warden_tracker:1b}] unless items entity @s weapon.offhand minecraft:compass[minecraft:enchantment_glint_override] run playsound minecraft:item.lodestone_compass.lock player @a ~ ~ ~ .5 0
+execute unless entity @e[type=minecraft:warden,distance=0..64] if items entity @s weapon.offhand minecraft:compass[minecraft:custom_data~{deeper_dark_warden_tracker:1b}] run item modify entity @s weapon.offhand [{"function":"minecraft:set_components","components":{"minecraft:lodestone_tracker":{"tracked":false},"minecraft:enchantment_glint_override":false}}]
+

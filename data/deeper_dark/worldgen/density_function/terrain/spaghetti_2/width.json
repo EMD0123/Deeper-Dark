@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:add",
+  "argument1": {
+    "type": "minecraft:add",
+    "argument1": {
+      "type": "minecraft:spline",
+      "spline": {
+        "coordinate": {
+          "type": "minecraft:noise",
+          "noise": "deeper_dark:caves/spaghetti_2",
+          "xz_scale": 0.1,
+          "y_scale": 0
+        },
+        "points": [
+          {
+            "location": -0.1,
+            "derivative": 0,
+            "value": 1
+          },
+          {
+            "location": -0.05,
+            "derivative": 0,
+            "value": 0
+          },
+          {
+            "location": 0.05,
+            "derivative": 0,
+            "value": 0
+          },
+          {
+            "location": 0.1,
+            "derivative": 0,
+            "value": 1
+          }
+        ]
+      }
+    },
+    "argument2": 0
+  },
+  "argument2": "deeper_dark:terrain/spaghetti_2/height"
+}

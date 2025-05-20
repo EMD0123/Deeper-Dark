@@ -1,0 +1,22 @@
+{"type":"minecraft:command","pools":[{"rolls":1,"entries":[{"type":"minecraft:item","name":
+
+"minecraft:disc_fragment_5",
+
+  "functions":[{"function":"minecraft:set_components",
+
+"components":{
+  "minecraft:custom_name": "{\"text\":\"Sonic Blaster\",\"italic\":false}",
+  "minecraft:item_name": "{\"text\":\"Sonic Blaster\"}",
+  "minecraft:item_model": "minecraft:sculk_sensor",
+  "minecraft:hide_additional_tooltip": {},
+  "minecraft:enchantment_glint_override": true,
+  "minecraft:rarity":"common",
+  "minecraft:lore": [
+    "{\"text\":\"Drop to Place\",\"italic\":false}"
+  ],
+  "minecraft:custom_data": {
+    "deeper_dark_sonic_blaster": 1
+  }
+}
+
+}]}]}]}

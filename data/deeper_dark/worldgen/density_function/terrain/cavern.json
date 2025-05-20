@@ -1,0 +1,96 @@
+{
+  "type": "minecraft:add",
+  "argument1": {
+    "type": "minecraft:spline",
+    "spline": {
+      "coordinate": "deeper_dark:temperature",
+      "points": [
+        {
+          "location": 0.3,
+          "derivative": 0,
+          "value": -1
+        },
+        {
+          "location": 0.4,
+          "derivative": 0,
+          "value": 1
+        }
+      ]
+    }
+  },
+  "argument2": {
+    "type": "minecraft:spline",
+    "spline": {
+      "coordinate": "minecraft:y",
+      "points": [
+        {
+          "location": -51,
+          "derivative": 0,
+          "value": {
+            "coordinate": {
+              "type": "minecraft:noise",
+              "noise": "deeper_dark:caves/cavern",
+              "xz_scale": 0.5,
+              "y_scale": 0
+            },
+            "points": [
+              {
+                "location": -1,
+                "derivative": 0,
+                "value": 0.99
+              },
+              {
+                "location": 1,
+                "derivative": 0,
+                "value": 1.01
+              }
+            ]
+          }
+        },
+        {
+          "location": 0,
+          "derivative": 0,
+          "value": 0
+        },
+        {
+          "location": 51,
+          "derivative": 0,
+          "value": {
+            "coordinate": {
+              "type": "minecraft:noise",
+              "noise": "deeper_dark:caves/cavern",
+              "xz_scale": 0.5,
+              "y_scale": 0
+            },
+            "points": [
+              {
+                "location": -1,
+                "derivative": 0,
+                "value": 0.99
+              },
+              {
+                "location": 1,
+                "derivative": 0,
+                "value": {
+                  "coordinate": "deeper_dark:terrain/is_deep_oasis",
+                  "points": [
+                    {
+                      "location": 0,
+                      "derivative": 0,
+                      "value": 2
+                    },
+                    {
+                      "location": 1,
+                      "derivative": 0,
+                      "value": 1.7
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

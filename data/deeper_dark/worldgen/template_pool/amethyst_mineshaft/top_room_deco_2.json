@@ -1,0 +1,29 @@
+{
+  "fallback": "deeper_dark:amethyst_mineshaft/top_room_deco_2",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "deeper_dark:amethyst_mineshaft/top_room_deco/deco_1",
+        "processors": "deeper_dark:ancient_fortress_chests"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "deeper_dark:amethyst_mineshaft/top_room_deco/deco_2",
+        "processors": "deeper_dark:ancient_fortress_chests"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:empty_pool_element"
+      }
+    }
+  ]
+}

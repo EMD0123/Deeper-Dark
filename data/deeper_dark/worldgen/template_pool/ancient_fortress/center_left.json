@@ -1,0 +1,14 @@
+{
+  "fallback": "deeper_dark:ancient_fortress/center_left",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "deeper_dark:ancient_fortress/center_left",
+        "processors": "deeper_dark:ancient_fortress_wall"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+function deeper_dark:sculk_converter_recipe_types/replace_item_id {replace:"minecraft:bone_block",with:"minecraft:sculk_catalyst",flames:4,xp:10,conversion_time:50}

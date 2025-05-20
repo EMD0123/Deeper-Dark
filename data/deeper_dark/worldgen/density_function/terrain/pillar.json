@@ -1,0 +1,101 @@
+{
+  "type": "minecraft:add",
+  "argument1": {
+    "type": "minecraft:add",
+    "argument1": {
+      "type": "minecraft:spline",
+      "spline": {
+        "coordinate": {
+          "type": "minecraft:noise",
+          "noise": "deeper_dark:caves/cavern",
+          "xz_scale": 0.2,
+          "y_scale": 0
+        },
+        "points": [
+          {
+            "location": -1,
+            "derivative": 0,
+            "value": -2
+          },
+          {
+            "location": -0.1,
+            "derivative": 0,
+            "value": -1.2
+          },
+          {
+            "location": 0.1,
+            "derivative": 0,
+            "value": -1
+          },
+          {
+            "location": 1.5,
+            "derivative": 0,
+            "value": 2
+          }
+        ]
+      }
+    },
+    "argument2": {
+      "type": "minecraft:square",
+      "argument": {
+        "type": "minecraft:spline",
+        "spline": {
+          "coordinate": {
+            "type": "minecraft:add",
+            "argument1": "y",
+            "argument2": 10
+          },
+          "points": [
+            {
+              "location": -77,
+              "derivative": 0,
+              "value": 2
+            },
+            {
+              "location": 0,
+              "derivative": 0,
+              "value": 0
+            },
+{
+              "location": 95,
+              "derivative": 0,
+              "value": {
+                "coordinate": "deeper_dark:terrain/is_deep_oasis",
+                "points": [
+                  {
+                    "location": 1,
+                    "derivative": 0,
+                    "value": 2
+                  },
+                  {
+                    "location": 0,
+                    "derivative": 0,
+                    "value": 1.5
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "argument2": {
+    "type": "minecraft:spline",
+    "spline": {
+      "coordinate": "deeper_dark:temperature",
+      "points": [
+        {
+          "location": 0.3,
+          "derivative": 0,
+          "value": 0
+        },
+        {
+          "location": 0.4,
+          "derivative": 0,
+          "value": -3
+        }
+      ]
+    }
+  }
+}

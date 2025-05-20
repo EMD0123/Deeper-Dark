@@ -1,0 +1,14 @@
+{
+  "fallback": "deeper_dark:ancient_village/street_end",
+  "elements": [
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "deeper_dark:ancient_village/street",
+        "processors": "deeper_dark:ancient_fortress_wall"
+      }
+    }
+  ]
+}

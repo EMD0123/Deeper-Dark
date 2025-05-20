@@ -1,0 +1,9 @@
+execute unless score Game deeper_dark.gamerule.disable_keepinventory_override matches 0..1 run scoreboard players set Game deeper_dark.gamerule.disable_keepinventory_override 1
+execute unless score Game deeper_dark.gamerule.disable_screen_shake matches 0..1 run scoreboard players set Game deeper_dark.gamerule.disable_screen_shake 0
+execute unless score Game deeper_dark.gamerule.disable_sculk_conversion matches 0..1 run scoreboard players set Game deeper_dark.gamerule.disable_sculk_conversion 0
+execute unless score Game deeper_dark.gamerule.disable_portal_particles matches 0..1 run scoreboard players set Game deeper_dark.gamerule.disable_portal_particles 0
+execute unless score Game deeper_dark.gamerule.shockwave_emits_light matches 0..1 run scoreboard players set Game deeper_dark.gamerule.shockwave_emits_light 1
+execute unless score Game deeper_dark.gamerule.shockwave_can_dig matches 0..1 run scoreboard players set Game deeper_dark.gamerule.shockwave_can_dig 1
+execute unless score Game deeper_dark.gamerule.shrieker_sense_scan_limit matches 0..1024 run scoreboard players set Game deeper_dark.gamerule.shrieker_sense_scan_limit 256
+execute unless score Game deeper_dark.gamerule.disable_portals matches 0..1 run scoreboard players set Game deeper_dark.gamerule.disable_portals 0
+execute unless score Game deeper_dark.gamerule.sonic_boom_damage matches 0..2147483647 run scoreboard players set Game deeper_dark.gamerule.sonic_boom_damage 10
