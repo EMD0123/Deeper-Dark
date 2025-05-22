@@ -5,14 +5,14 @@
   "functions":[{"function":"minecraft:set_components",
 
 "components":{
-  "minecraft:custom_name": "{\"text\":\"Anticatalyst\",\"italic\":false}",
-  "minecraft:item_name": "{\"text\":\"Anticatalyst\"}",
+  "minecraft:custom_name": {"translate":"","fallback":"Anticatalyst","italic":false},
+  "minecraft:item_name": {"translate":"","fallback":"Anticatalyst"},
   "minecraft:item_model": "minecraft:silence_armor_trim_smithing_template",
   "!minecraft:jukebox_playable": {},
   "minecraft:enchantment_glint_override": true,
   "minecraft:rarity":"epic",
   "minecraft:lore": [
-    "{\"text\":\"Drop to Place\",\"italic\":false}"
+    {"text":"Drop to Place","italic":false}
   ],
   "minecraft:custom_data": {
     "deeper_dark_anticatalyst": 1

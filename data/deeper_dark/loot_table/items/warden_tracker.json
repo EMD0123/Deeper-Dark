@@ -5,11 +5,11 @@
   "functions":[{"function":"minecraft:set_components",
 
 "components":{
-  "minecraft:custom_name": "{\"text\":\"Warden Tracker\",\"italic\":false}",
-  "minecraft:item_name": "{\"text\":\"Warden Tracker\"}",
+  "minecraft:custom_name": {"translate":"","fallback":"Warden Tracker","italic":false},
+  "minecraft:item_name": {"translate":"","fallback":"Warden Tracker"},
   "minecraft:rarity":"uncommon",
   "minecraft:lore": [
-    "{\"text\":\"Hold In Your Hand to Use\",\"color\":\"gray\",\"italic\":false}"
+    {"text":"Hold In Your Hand to Use","color":"gray","italic":false}
   ],
   "minecraft:lodestone_tracker": {
     "tracked": false

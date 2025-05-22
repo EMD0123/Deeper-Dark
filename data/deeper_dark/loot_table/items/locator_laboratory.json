@@ -5,8 +5,8 @@
   "functions":[{"function":"minecraft:set_components",
 
 "components":{
-  "minecraft:custom_name": "{\"text\":\"Laboratory Locator Compass\",\"italic\":false}",
-  "minecraft:item_name": "{\"text\":\"Laboratory Locator Compass\"}",
+  "minecraft:custom_name": {"translate":"","fallback":"Laboratory Locator Compass","italic":false},
+  "minecraft:item_name": {"translate":"","fallback":"Laboratory Locator Compass"},
   "minecraft:lodestone_tracker": {
     "tracked": false
   },

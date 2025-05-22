@@ -5,14 +5,14 @@
   "functions":[{"function":"minecraft:set_components",
 
 "components":{
-  "minecraft:custom_name": "{\"text\":\"Conversion Altar Fragment\",\"italic\":false}",
-  "minecraft:item_name": "{\"text\":\"Conversion Altar Fragment\"}",
+  "minecraft:custom_name": {"translate":"","fallback":"Conversion Altar Fragment","italic":false},
+  "minecraft:item_name": {"translate":"","fallback":"Conversion Altar Fragment"},
   "minecraft:item_model": "minecraft:disc_fragment_5",
   "!minecraft:jukebox_playable": {},
   "minecraft:enchantment_glint_override": true,
   "minecraft:rarity":"rare",
   "minecraft:lore": [
-    "{\"text\":\"Drop on a Sculk Catalyst\",\"italic\":false}"
+    {"translate":"","fallback":"Drop on a Sculk Catalyst","italic":false}
   ],
   "minecraft:custom_data": {
     "deeper_dark_altar_fragment": 1

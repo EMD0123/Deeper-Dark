@@ -181,19 +181,19 @@ execute as @e[tag=deeper_dark.silent_despawn,type=!player] run kill @s
 
 
 #creative items
-tellraw @a[scores={deeper_dark.items=1}] [{"text":"\nItems From ","hoverEvent":{"action":"show_text","value":[{"text":"Click on an item to get it"}]}},{"text":"Deeper Dark","color":"#007A8A","hoverEvent":{"action":"show_text","value":[{"text":"Go To Website"}]},"clickEvent":{"action":"open_url","value":"https://www.planetminecraft.com/data-pack/deeper-dark-dimension/"}},{"text":":\n"}\
-,{"text":"Activated Sculk Shrieker\n","color":"yellow","clickEvent":{"action":"run_command","value":"/trigger deeper_dark.items set 2"}}\
-,{"text":"Splash Potion of Blindness\n","clickEvent":{"action":"run_command","value":"/trigger deeper_dark.items set 3"}}\
-,{"text":"Amethyst Mineshaft Locator Compass\n","clickEvent":{"action":"run_command","value":"/trigger deeper_dark.items set 4"}}\
-,{"text":"Warden Tracker\n","color":"yellow","clickEvent":{"action":"run_command","value":"/trigger deeper_dark.items set 5"}}\
-,{"text":"Conversion Altar Fragment\n","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger deeper_dark.items set 6"}}\
-,{"text":"Ancient Fortress Locator Compass\n","clickEvent":{"action":"run_command","value":"/trigger deeper_dark.items set 7"}}\
-,{"text":"Sculk Tentacle\n","clickEvent":{"action":"run_command","value":"/trigger deeper_dark.items set 8"}}\
-,{"text":"Sculk Claw\n","clickEvent":{"action":"run_command","value":"/trigger deeper_dark.items set 9"}}\
-,{"text":"Sculk Syphon\n","clickEvent":{"action":"run_command","value":"/trigger deeper_dark.items set 10"}}\
-,{"text":"Laboratory Locator Compass\n","clickEvent":{"action":"run_command","value":"/trigger deeper_dark.items set 11"}}\
-,{"text":"Anticatalyst\n","color":"light_purple","clickEvent":{"action":"run_command","value":"/trigger deeper_dark.items set 12"}}\
-,{"text":"Sonic Blaster\n","clickEvent":{"action":"run_command","value":"/trigger deeper_dark.items set 13"}}\
+tellraw @a[scores={deeper_dark.items=1}] [{"hover_event":{"action":"show_text","value":[{"text":"Click on an item to get it"}]},"text":"\nItems From "},{"color":"#007A8A","hover_event":{"action":"show_text","value":[{"text":"Go To Website"}]},"text":"Deeper Dark"},{"text":":\n"}\
+,{"click_event":{"action":"run_command","command":"/trigger deeper_dark.items set 2"},"color":"yellow","text":"Activated Sculk Shrieker\n"}\
+,{"click_event":{"action":"run_command","command":"/trigger deeper_dark.items set 3"},"text":"Splash Potion of Blindness\n"}\
+,{"click_event":{"action":"run_command","command":"/trigger deeper_dark.items set 4"},"text":"Amethyst Mineshaft Locator Compass\n"}\
+,{"click_event":{"action":"run_command","command":"/trigger deeper_dark.items set 5"},"color":"yellow","text":"Warden Tracker\n"}\
+,{"click_event":{"action":"run_command","command":"/trigger deeper_dark.items set 6"},"color":"aqua","text":"Conversion Altar Fragment\n"}\
+,{"click_event":{"action":"run_command","command":"/trigger deeper_dark.items set 7"},"text":"Ancient Fortress Locator Compass\n"}\
+,{"click_event":{"action":"run_command","command":"/trigger deeper_dark.items set 8"},"text":"Sculk Tentacle\n"}\
+,{"click_event":{"action":"run_command","command":"/trigger deeper_dark.items set 9"},"text":"Sculk Claw\n"}\
+,{"click_event":{"action":"run_command","command":"/trigger deeper_dark.items set 10"},"text":"Sculk Syphon\n"}\
+,{"click_event":{"action":"run_command","command":"/trigger deeper_dark.items set 11"},"text":"Laboratory Locator Compass\n"}\
+,{"click_event":{"action":"run_command","command":"/trigger deeper_dark.items set 12"},"color":"light_purple","text":"Anticatalyst\n"}\
+,{"click_event":{"action":"run_command","command":"/trigger deeper_dark.items set 13"},"text":"Sonic Blaster\n"}\
 ]
 
 loot give @a[scores={deeper_dark.items=2}] loot deeper_dark:items/activated_sculk_shrieker

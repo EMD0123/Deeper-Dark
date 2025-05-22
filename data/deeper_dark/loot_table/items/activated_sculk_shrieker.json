@@ -5,8 +5,8 @@
   "functions":[{"function":"minecraft:set_components",
 
 "components":{
-  "minecraft:custom_name": "{\"text\":\"Activated Sculk Shrieker\",\"italic\":false}",
-  "minecraft:item_name": "{\"text\":\"Activated Sculk Shrieker\"}",
+  "minecraft:custom_name": {"translate":"","fallback":"Activated Sculk Shrieker","italic":false},
+  "minecraft:item_name": {"translate":"","fallback":"Activated Sculk Shrieker"},
   "minecraft:enchantment_glint_override": true,
   "minecraft:rarity":"uncommon",
   "minecraft:block_state": {
