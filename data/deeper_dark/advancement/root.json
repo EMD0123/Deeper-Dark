@@ -9,7 +9,7 @@
     "description": {
       "text": "Treasure and Danger"
     },
-    "background": "minecraft:textures/block/sculk_catalyst_top.png",
+    "background": "minecraft:block/sculk_catalyst_top",
     "frame": "task",
     "show_toast": false,
     "announce_to_chat": false,
