@@ -5,10 +5,10 @@ execute unless data entity @s SelectedItem.components.minecraft:custom_data.deep
 #disenchant
 summon minecraft:armor_stand ~ ~ ~ {Marker:1b,Invisible:1b,Tags:["deeper_dark.item"]}
 item replace entity @e[tag=deeper_dark.item,limit=1,sort=nearest] weapon.mainhand from entity @s weapon.mainhand
-data remove entity @e[tag=deeper_dark.item,limit=1,sort=nearest] HandItems[0].components."minecraft:custom_data".deeper_dark
-data remove entity @e[tag=deeper_dark.item,limit=1,sort=nearest] HandItems[0].components."minecraft:enchantment_glint_override"
-execute store result score @e[tag=deeper_dark.item,limit=1,sort=nearest] deeper_dark.var run data get entity @e[tag=deeper_dark.item,limit=1,sort=nearest] HandItems[0].components."minecraft:custom_data"
-execute if score @e[tag=deeper_dark.item,limit=1,sort=nearest] deeper_dark.var matches 0 run data remove entity @e[tag=deeper_dark.item,limit=1,sort=nearest] HandItems[0].components."minecraft:custom_data"
+data remove entity @e[tag=deeper_dark.item,limit=1,sort=nearest] equipment.mainhand.components."minecraft:custom_data".deeper_dark
+data remove entity @e[tag=deeper_dark.item,limit=1,sort=nearest] equipment.mainhand.components."minecraft:enchantment_glint_override"
+execute store result score @e[tag=deeper_dark.item,limit=1,sort=nearest] deeper_dark.var run data get entity @e[tag=deeper_dark.item,limit=1,sort=nearest] equipment.mainhand.components."minecraft:custom_data"
+execute if score @e[tag=deeper_dark.item,limit=1,sort=nearest] deeper_dark.var matches 0 run data remove entity @e[tag=deeper_dark.item,limit=1,sort=nearest] equipment.mainhand.components."minecraft:custom_data"
 item replace entity @s weapon.mainhand from entity @e[tag=deeper_dark.item,limit=1,sort=nearest] weapon.mainhand
 execute at @s run playsound minecraft:block.grindstone.use ambient @a ~ ~ ~ 1 0
 kill @e[tag=deeper_dark.item]

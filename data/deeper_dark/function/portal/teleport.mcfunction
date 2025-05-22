@@ -10,10 +10,10 @@ execute if score Game deeper_dark.var matches 1 at @s[nbt={SelectedItem:{id:"min
 execute if score Game deeper_dark.var matches 0 at @s[nbt={SelectedItem:{id:"minecraft:echo_shard"}}] run function deeper_dark:remove_shard_label
 execute if score Game deeper_dark.var matches 0 at @s[nbt={SelectedItem:{id:"minecraft:echo_shard"}}] run summon minecraft:armor_stand ~ ~ ~ {Marker:1b,Invisible:1b,Tags:["deeper_dark.item"]}
 execute if score Game deeper_dark.var matches 0 at @s[nbt={SelectedItem:{id:"minecraft:echo_shard"}}] run item replace entity @n[tag=deeper_dark.item] weapon.mainhand from entity @s weapon.mainhand
-execute if score Game deeper_dark.var matches 0 at @s[nbt={SelectedItem:{id:"minecraft:echo_shard"}}] run data remove entity @n[tag=deeper_dark.item] HandItems[0].components."minecraft:custom_data".deeper_dark
-execute if score Game deeper_dark.var matches 0 at @s[nbt={SelectedItem:{id:"minecraft:echo_shard"}}] run data remove entity @n[tag=deeper_dark.item] HandItems[0].components."minecraft:enchantment_glint_override"
-execute if score Game deeper_dark.var matches 0 at @s[nbt={SelectedItem:{id:"minecraft:echo_shard"}}] store result score @n[tag=deeper_dark.item] deeper_dark.var run data get entity @n[tag=deeper_dark.item] HandItems[0].components."minecraft:custom_data"
-execute if score Game deeper_dark.var matches 0 at @s[nbt={SelectedItem:{id:"minecraft:echo_shard"}}] if score @n[tag=deeper_dark.item] deeper_dark.var matches 0 run data remove entity @n[tag=deeper_dark.item] HandItems[0].components."minecraft:custom_data"
+execute if score Game deeper_dark.var matches 0 at @s[nbt={SelectedItem:{id:"minecraft:echo_shard"}}] run data remove entity @n[tag=deeper_dark.item] equipment.mainhand.components."minecraft:custom_data".deeper_dark
+execute if score Game deeper_dark.var matches 0 at @s[nbt={SelectedItem:{id:"minecraft:echo_shard"}}] run data remove entity @n[tag=deeper_dark.item] equipment.mainhand.components."minecraft:enchantment_glint_override"
+execute if score Game deeper_dark.var matches 0 at @s[nbt={SelectedItem:{id:"minecraft:echo_shard"}}] store result score @n[tag=deeper_dark.item] deeper_dark.var run data get entity @n[tag=deeper_dark.item] equipment.mainhand.components."minecraft:custom_data"
+execute if score Game deeper_dark.var matches 0 at @s[nbt={SelectedItem:{id:"minecraft:echo_shard"}}] if score @n[tag=deeper_dark.item] deeper_dark.var matches 0 run data remove entity @n[tag=deeper_dark.item] equipment.mainhand.components."minecraft:custom_data"
 execute if score Game deeper_dark.var matches 0 at @s[nbt={SelectedItem:{id:"minecraft:echo_shard"}}] run item replace entity @s weapon.mainhand from entity @n[tag=deeper_dark.item] weapon.mainhand
 execute if score Game deeper_dark.var matches 0 at @s[nbt={SelectedItem:{id:"minecraft:echo_shard"}}] run kill @e[tag=deeper_dark.item]
 
