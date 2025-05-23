@@ -5,8 +5,8 @@
   "functions":[{"function":"minecraft:set_components",
 
 "components":{
-  "minecraft:custom_name": {"translate":"","fallback":"Ancient Fortress Locator Compass","italic":false},
-  "minecraft:item_name": {"translate":"","fallback":"Ancient Fortress Locator Compass"},
+  "minecraft:custom_name": {"translate":"item.deeper_dark.locator_ancient_fortress","fallback":"Ancient Fortress Locator Compass","italic":false},
+  "minecraft:item_name": {"translate":"item.deeper_dark.locator_ancient_fortress","fallback":"Ancient Fortress Locator Compass"},
   "minecraft:lodestone_tracker": {
     "tracked": false
   },

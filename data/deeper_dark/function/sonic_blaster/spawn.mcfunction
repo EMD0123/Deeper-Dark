@@ -1,5 +1,5 @@
 function deeper_dark:itemstack_remove_1
-execute align xyz run summon marker ~.5 ~.5 ~.5 {Tags:["deeper_dark.sonic_blaster"],CustomName:"Sonic Blaster"}
+execute align xyz run summon marker ~.5 ~.5 ~.5 {Tags:["deeper_dark.sonic_blaster"],CustomName:{"translate":"item.deeper_dark.sonic_blaster","fallback":"Sonic Blaster"}}
 execute align xyz positioned ~.5 ~.5 ~.5 on origin facing entity @s eyes run rotate @n[tag=deeper_dark.sonic_blaster] facing entity @s eyes
 execute align xyz positioned ~.5 ~.5 ~.5 as @n[tag=deeper_dark.sonic_blaster] if entity @s[x_rotation=0..90] run rotate @s facing ~ ~-1 ~
 execute align xyz positioned ~.5 ~.5 ~.5 as @n[tag=deeper_dark.sonic_blaster] unless entity @s[x_rotation=80..90] at @s if entity @s[y_rotation=-45..45] run rotate @s 0 0

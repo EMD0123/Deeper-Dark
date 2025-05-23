@@ -5,8 +5,8 @@
   "functions":[{"function":"minecraft:set_components",
 
 "components":{
-  "minecraft:custom_name": {"translate":"","fallback":"Amethyst Mineshaft Locator Compass","italic":false},
-  "minecraft:item_name": {"translate":"","fallback":"Amethyst Mineshaft Locator Compass"},
+  "minecraft:custom_name": {"translate":"item.deeper_dark.locator_amethyst_mineshaft","fallback":"Amethyst Mineshaft Locator Compass","italic":false},
+  "minecraft:item_name": {"translate":"item.deeper_dark.locator_amethyst_mineshaft","fallback":"Amethyst Mineshaft Locator Compass"},
   "minecraft:lodestone_tracker": {
     "tracked": false
   },

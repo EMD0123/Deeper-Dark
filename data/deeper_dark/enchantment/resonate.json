@@ -1,6 +1,7 @@
 {
   "description": {
-    "text": "Resonate",
+    "translate": "enchantment.deeper_dark.resonate",
+    "fallback": "Resonate",
     "color": "#007A8A"
   },
   "supported_items": "#deeper_dark:shields",

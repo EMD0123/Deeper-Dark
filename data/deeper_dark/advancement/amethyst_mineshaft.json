@@ -4,11 +4,13 @@
       "id": "minecraft:budding_amethyst"
     },
     "title": {
-      "text": "Infinite Amethyst"
-    },
+    "translate": "advancement.deeper_dark.amethyst_mineshaft.title",
+    "fallback": "Infinite Amethyst"
+},
     "description": {
-      "text": "Locate an Amethyst Mineshaft"
-    },
+    "translate": "advancement.deeper_dark.amethyst_mineshaft.title",
+    "fallback": "Locate an Amethyst Mineshaft"
+},
     "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,

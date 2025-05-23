@@ -7,11 +7,13 @@
       }
     },
     "title": {
-      "text": "The Light of the Soul Fire Flame"
-    },
+    "translate": "advancement.deeper_dark.converter.title",
+    "fallback": "The Light of the Soul Fire Flame"
+},
     "description": {
-      "text": "Assemble a Sculk Converter"
-    },
+    "translate": "advancement.deeper_dark.converter.desc",
+    "fallback": "Assemble a Sculk Converter"
+},
     "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,

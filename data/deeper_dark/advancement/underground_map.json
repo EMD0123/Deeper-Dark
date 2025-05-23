@@ -7,11 +7,13 @@
       }
     },
     "title": {
-      "text": "Underground Map"
-    },
+    "translate": "advancement.deeper_dark.underground_map.title",
+    "fallback": "Underground Map"
+},
     "description": {
-      "text": "Find a Locator Compass"
-    },
+    "translate": "advancement.deeper_dark.underground_map.desc",
+    "fallback": "Find a Locator Compass"
+},
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

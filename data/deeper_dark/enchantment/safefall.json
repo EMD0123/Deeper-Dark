@@ -1,6 +1,7 @@
 {
   "description": {
-    "text": "Safefall",
+    "translate": "enchantment.deeper_dark.safefall",
+    "fallback": "Safefall",
     "color": "#007A8A"
   },
   "supported_items": "#minecraft:enchantable/leg_armor",

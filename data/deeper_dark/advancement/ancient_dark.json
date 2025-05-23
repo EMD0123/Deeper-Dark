@@ -7,11 +7,13 @@
       }
     },
     "title": {
-      "text": "Deepest Dark"
-    },
+    "translate": "advancement.deeper_dark.ancient_dark.title",
+    "fallback": "Deepest Dark"
+},
     "description": {
-      "text": "Dig Into the Ancient Dark, The Home Biome of the Sculk"
-    },
+    "translate": "advancement.deeper_dark.ancient_dark.desc",
+    "fallback": "Dig Into the Ancient Dark, The Home Biome of the Sculk"
+},
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true

@@ -4,11 +4,13 @@
       "id": "minecraft:echo_shard"
     },
     "title": {
-      "text": "Echos in the Wind"
-    },
+    "translate": "advancement.deeper_dark.hint.title",
+    "fallback": "Echos in the Wind"
+},
     "description": {
-      "text": "Walk Into the Ancient City Portal while Holding an Echo Shard. What Could go Wrong?"
-    },
+    "translate": "advancement.deeper_dark.hint.desc",
+    "fallback": "Walk Into the Ancient City Portal while Holding an Echo Shard. What Could go Wrong?"
+},
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

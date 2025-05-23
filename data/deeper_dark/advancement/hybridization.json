@@ -7,11 +7,13 @@
       }
     },
     "title": {
-      "text": "Hybridization"
-    },
+    "translate": "advancement.deeper_dark.hybridization.title",
+    "fallback": "Hybridization"
+},
     "description": {
-      "text": "Turn a Sculk Syphon into a Sculk Converter"
-    },
+    "translate": "advancement.deeper_dark.hybridization.desc",
+    "fallback": "Turn a Sculk Syphon into a Sculk Converter"
+},
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,

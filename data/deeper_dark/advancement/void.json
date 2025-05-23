@@ -4,11 +4,13 @@
       "id": "minecraft:bedrock"
     },
     "title": {
-      "text": "Out of Bounds"
-    },
+    "translate": "advancement.deeper_dark.void.title",
+    "fallback": "Out of Bounds"
+},
     "description": {
-      "text": "How Did You Get Up There?"
-    },
+    "translate": "advancement.deeper_dark.void.desc",
+    "fallback": "How Did You Get Up There?"
+},
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

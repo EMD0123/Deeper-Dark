@@ -5,14 +5,14 @@
   "functions":[{"function":"minecraft:set_components",
 
 "components":{
-  "minecraft:custom_name": {"translate":"","fallback":"Sculk Claw","italic":false},
-  "minecraft:item_name": {"translate":"","fallback":"Sculk Claw"},
+  "minecraft:custom_name": {"translate":"item.deeper_dark.sculk_claw","fallback":"Sculk Claw","italic":false},
+  "minecraft:item_name": {"translate":"item.deeper_dark.sculk_claw","fallback":"Sculk Claw"},
   "minecraft:item_model": "minecraft:sculk_shrieker",
   "!minecraft:jukebox_playable": {},
   "minecraft:enchantment_glint_override": true,
   "minecraft:rarity":"common",
   "minecraft:lore": [
-    {"text":"Drop on Sculk to Place","italic":false}
+    {"translate":"item.deeper_dark.sculk_claw.hint","fallback":"Drop on Sculk to Place","italic":false}
   ],
   "minecraft:custom_data": {
     "deeper_dark_sculk_claw": 1

@@ -7,11 +7,13 @@
       }
     },
     "title": {
-      "text": "The Way Out"
-    },
+    "translate": "advancement.deeper_dark.way_out.title",
+    "fallback": "The Way Out"
+},
     "description": {
-      "text": "Escape the Deeper Dark the Same Way you Came In"
-    },
+    "translate": "advancement.deeper_dark.way_out.desc",
+    "fallback": "Escape the Deeper Dark the Same Way you Came In"
+},
     "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,

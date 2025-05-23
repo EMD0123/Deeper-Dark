@@ -1,6 +1,7 @@
 {
   "description": {
-    "text": "Clearsight",
+    "translate": "enchantment.deeper_dark.clearsight",
+    "fallback": "Clearsight",
     "color": "#007A8A"
   },
   "supported_items": "#minecraft:enchantable/head_armor",

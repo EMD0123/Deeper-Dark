@@ -9,11 +9,13 @@
       }
     },
     "title": {
-      "text": "Let There Be Light!"
-    },
+    "translate": "advancement.deeper_dark.night_vision.title",
+    "fallback": "Let There Be Light!"
+},
     "description": {
-      "text": "Use Night Vision in the Deeper Dark"
-    },
+    "translate": "advancement.deeper_dark.night_vision.desc",
+    "fallback": "Use Night Vision in the Deeper Dark"
+},
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

@@ -21,7 +21,7 @@ scoreboard objectives add deeper_dark.tentacle_x dummy
 scoreboard objectives add deeper_dark.tentacle_y dummy
 scoreboard objectives add deeper_dark.tentacle_attack_time dummy
 scoreboard objectives add deeper_dark.boss_attack_cooldown dummy
-bossbar add deeper_dark/boss "Defender"
+bossbar add deeper_dark/boss {"translate":"entity.deeper_dark.boss","fallback":"Defender"}
 bossbar set minecraft:deeper_dark/boss color blue
 bossbar set minecraft:deeper_dark/boss max 700
 scoreboard objectives add deeper_dark.deepslate minecraft.mined:minecraft.deepslate

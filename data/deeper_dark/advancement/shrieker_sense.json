@@ -7,11 +7,13 @@
       }
     },
     "title": {
-      "text": "Target Locked"
-    },
+    "translate": "advancement.deeper_dark.shrieker_sense.title",
+    "fallback": "Target Locked"
+},
     "description": {
-      "text": "Highlight a Sculk Shrieker with a Shrieker Sense Enchanted Spyglass"
-    },
+    "translate": "advancement.deeper_dark.shrieker_sense.desc",
+    "fallback": "Highlight a Sculk Shrieker with a Shrieker Sense Enchanted Spyglass"
+},
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

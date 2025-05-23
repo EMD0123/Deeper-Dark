@@ -4,11 +4,13 @@
       "id": "minecraft:enchanted_book"
     },
     "title": {
-      "text": "Cover Me in Sculk"
-    },
+    "translate": "advancement.deeper_dark.armor.title",
+    "fallback": "Cover Me in Sculk"
+},
     "description": {
-      "text": "Get a full suit of Max-level Sculk-enchanted Armor"
-    },
+    "translate": "advancement.deeper_dark.armor.desc",
+    "fallback": "Get a full suit of Max-level Sculk-enchanted Armor"
+},
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,

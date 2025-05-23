@@ -4,11 +4,13 @@
       "id": "minecraft:brewing_stand"
     },
     "title": {
-      "text": "A Great Day For Science"
-    },
+    "translate": "advancement.deeper_dark.laboratory.title",
+    "fallback": "A Great Day For Science"
+},
     "description": {
-      "text": "Locate a Laboratory"
-    },
+    "translate": "advancement.deeper_dark.laboratory.desc",
+    "fallback": "Locate a Laboratory"
+},
     "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,

@@ -4,11 +4,13 @@
       "id": "minecraft:enchanted_book"
     },
     "title": {
-      "text": "Enchanting, But Better!"
-    },
+    "translate": "advancement.deeper_dark.light.title",
+    "fallback": "Enchanting, But Better!"
+},
     "description": {
-      "text": "Enchant an Already Enchanted Item using a Sculk Coverter"
-    },
+    "translate": "advancement.deeper_dark.light.desc",
+    "fallback": "Enchant an Already Enchanted Item using a Sculk Coverter"
+},
     "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,

@@ -7,11 +7,13 @@
       }
     },
     "title": {
-      "text": "Mined Under Matter"
-    },
+    "translate": "advancement.deeper_dark.undermine.title",
+    "fallback": "Mined Under Matter"
+},
     "description": {
-      "text": "Instant-Mine Some Deepslate with an Undermine Enchanted Pickaxe"
-    },
+    "translate": "advancement.deeper_dark.undermine.desc",
+    "fallback": "Instant-Mine Some Deepslate with an Undermine Enchanted Pickaxe"
+},
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

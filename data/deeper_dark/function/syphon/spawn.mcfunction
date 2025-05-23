@@ -1,5 +1,5 @@
 function deeper_dark:itemstack_remove_1
-execute align xyz run summon marker ~.5 ~.5 ~.5 {Tags:["deeper_dark.syphon"],CustomName:"Sculk Syphon"}
+execute align xyz run summon marker ~.5 ~.5 ~.5 {Tags:["deeper_dark.syphon"],CustomName:{"translate":"item.deeper_dark.sculk_syphon","fallback":"Sculk Syphon"}}
 setblock ~ ~ ~ minecraft:sculk_catalyst
 
 #base

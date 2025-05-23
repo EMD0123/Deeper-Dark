@@ -4,11 +4,13 @@
       "id": "minecraft:warden_spawn_egg"
     },
     "title": {
-      "text": "Intruder Alert!"
-    },
+    "translate": "advancement.deeper_dark.ancient_dark_detected.title",
+    "fallback": "Intruder Alert!"
+},
     "description": {
-      "text": "Alert The Ancient Dark To Your Presence by Touching Sculk"
-    },
+    "translate": "advancement.deeper_dark.ancient_dark_detected.desc",
+    "fallback": "Alert The Ancient Dark To Your Presence by Touching Sculk"
+},
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

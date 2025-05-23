@@ -7,11 +7,13 @@
       }
     },
     "title": {
-      "text": "Finding The Pieces"
-    },
+    "translate": "advancement.deeper_dark.altar_fragment.title",
+    "fallback": "Finding The Pieces"
+},
     "description": {
-      "text": "Discover One of the Sculk Conversion Altar Fragments"
-    },
+    "translate": "advancement.deeper_dark.altar_fragment.desc",
+    "fallback": "Discover One of the Sculk Conversion Altar Fragments"
+},
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

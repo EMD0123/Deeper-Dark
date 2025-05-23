@@ -4,11 +4,13 @@
       "id": "minecraft:deepslate"
     },
     "title": {
-      "text": "Spelunker"
-    },
+    "translate": "advancement.deeper_dark.spelunker.title",
+    "fallback": "Spelunker"
+},
     "description": {
-      "text": "Visit Every Biome in the Deeper Dark"
-    },
+    "translate": "advancement.deeper_dark.spelunker.desc",
+    "fallback": "Visit Every Biome in the Deeper Dark"
+},
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true

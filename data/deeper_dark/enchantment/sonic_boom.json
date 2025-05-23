@@ -1,6 +1,7 @@
 {
   "description": {
-    "text": "Sonic Boom",
+    "translate": "enchantment.deeper_dark.sonic_boom",
+    "fallback": "Sonic Boom",
     "color": "#007A8A"
   },
   "supported_items": "#minecraft:enchantable/chest_armor",

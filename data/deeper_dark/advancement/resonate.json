@@ -7,11 +7,13 @@
       }
     },
     "title": {
-      "text": "Caught In 4K"
-    },
+    "translate": "advancement.deeper_dark.resonate.title",
+    "fallback": "Caught In 4K"
+},
     "description": {
-      "text": "Give An Attacker Glowing Using the Resonate Enchantment"
-    },
+    "translate": "advancement.deeper_dark.resonate.desc",
+    "fallback": "Give An Attacker Glowing Using the Resonate Enchantment"
+},
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

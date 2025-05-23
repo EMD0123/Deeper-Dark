@@ -4,11 +4,13 @@
       "id": "minecraft:black_concrete"
     },
     "title": {
-      "text": "And As The Darkness Fades Away..."
-    },
+    "translate": "advancement.deeper_dark.boss.title",
+    "fallback": "And As The Darkness Fades Away..."
+},
     "description": {
-      "text": "Kill The Defender"
-    },
+    "translate": "advancement.deeper_dark.boss.desc",
+    "fallback": "Defeat The Defender"
+},
     "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,

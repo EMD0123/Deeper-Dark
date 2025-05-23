@@ -1,6 +1,7 @@
 {
   "description": {
-    "text": "Darkspeed",
+    "translate": "enchantment.deeper_dark.darkspeed",
+    "fallback": "Darkspeed",
     "color": "#007A8A"
   },
   "supported_items": "#minecraft:enchantable/foot_armor",

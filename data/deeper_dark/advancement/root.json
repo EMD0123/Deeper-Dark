@@ -4,11 +4,13 @@
       "id": "minecraft:sculk"
     },
     "title": {
-      "text": "Deeper Dark"
-    },
+    "translate": "advancement.deeper_dark.root.title",
+    "fallback": "Deeper Dark"
+},
     "description": {
-      "text": "Treasure and Danger"
-    },
+    "translate": "advancement.deeper_dark.root.desc",
+    "fallback": "Treasure and Danger"
+},
     "background": "minecraft:block/sculk_catalyst_top",
     "frame": "task",
     "show_toast": false,

@@ -4,11 +4,13 @@
       "id": "minecraft:sculk_shrieker"
     },
     "title": {
-      "text": "Locked Out"
-    },
+    "translate": "advancement.deeper_dark.locked_out.title",
+    "fallback": "Locked Out"
+},
     "description": {
-      "text": "Have a Warden Prevent You From Escaping With an Echo Shard"
-    },
+    "translate": "advancement.deeper_dark.locked_out.desc",
+    "fallback": "Have a Warden Prevent You From Escaping With an Echo Shard"
+},
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,

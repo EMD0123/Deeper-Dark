@@ -4,11 +4,13 @@
       "id": "minecraft:deepslate_bricks"
     },
     "title": {
-      "text": "Guarded Secrets"
-    },
+    "translate": "advancement.deeper_dark.fortress.title",
+    "fallback": "Guarded Secrets"
+},
     "description": {
-      "text": "Enter An Ancient Fortress"
-    },
+    "translate": "advancement.deeper_dark.fortress.desc",
+    "fallback": "Enter An Ancient Fortress"
+},
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
