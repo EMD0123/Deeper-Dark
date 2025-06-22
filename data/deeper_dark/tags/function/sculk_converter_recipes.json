@@ -1,15 +1,52 @@
 {
   "values": [
-    "deeper_dark:sculk_converter/recipes/enchantment_addition",
-    "deeper_dark:sculk_converter/recipes/soul_sand",
-    "deeper_dark:sculk_converter/recipes/soul_soil",
-    "deeper_dark:sculk_converter/recipes/echo_shard",
-    "deeper_dark:sculk_converter/recipes/experience_bottle",
-    "deeper_dark:sculk_converter/recipes/sculk_catalyst",
-    "deeper_dark:sculk_converter/recipes/reinforced_deepslate",
-    "deeper_dark:sculk_converter/recipes/blindness_potion",
-    "deeper_dark:sculk_converter/recipes/activated_sculk_shrieker",
-    "deeper_dark:sculk_converter/recipes/warden_tracker",
-    "deeper_dark:sculk_converter/recipes/key"
+    {
+      "id": "deeper_dark:sculk_converter/recipes/enchantment_addition",
+      "required": false
+    },
+    {
+      "id": "deeper_dark:sculk_converter/recipes/soul_sand",
+      "required": false
+    },
+    {
+      "id": "deeper_dark:sculk_converter/recipes/soul_soil",
+      "required": false
+    },
+    {
+      "id": "deeper_dark:sculk_converter/recipes/echo_shard",
+      "required": false
+    },
+    {
+      "id": "deeper_dark:sculk_converter/recipes/experience_bottle",
+      "required": false
+    },
+    {
+      "id": "deeper_dark:sculk_converter/recipes/sculk_catalyst",
+      "required": false
+    },
+    {
+      "id": "deeper_dark:sculk_converter/recipes/reinforced_deepslate",
+      "required": false
+    },
+    {
+      "id": "deeper_dark:sculk_converter/recipes/blindness_potion",
+      "required": false
+    },
+    {
+      "id": "deeper_dark:sculk_converter/recipes/activated_sculk_shrieker",
+      "required": false
+    },
+    {
+      "id": "deeper_dark:sculk_converter/recipes/warden_tracker",
+      "required": false
+    },
+    {
+      "id": "deeper_dark:sculk_converter/recipes/key",
+      "required": false
+    },
+    {
+      "id": "deeper_dark:sculk_converter/recipes/enchanted_golden_apple",
+      "required": false
+    }
   ]
 }
