@@ -1,4 +1,4 @@
-#execute if dimension deeper_dark:deeper_dark run return fail
+execute if dimension deeper_dark:deeper_dark run return fail
 execute if data entity @s data.Item.components."minecraft:custom_data".deeper_dark.EntrancePosition run return fail
 execute unless data entity @s data.dimension run return fail
 execute at @s run tp @s ~ ~0.5 ~

@@ -32,13 +32,36 @@
             "max": 7
           }
         }
+      },
+      {
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "nbt": "{data:{Item:{id:\"minecraft:enchanted_book\"}}}"
+          }
+        }
       }
     ]
   },
   {
-    "function": "minecraft:enchant_randomly",
+    "function": "minecraft:enchant_with_levels",
+    "levels": {
+      "min": {
+        "type": "minecraft:score",
+        "target": "this",
+        "score": "deeper_dark.sculk_converter.flames",
+        "scale": 3
+      },
+      "max": {
+        "type": "minecraft:score",
+        "target": "this",
+        "score": "deeper_dark.sculk_converter.flames",
+        "scale": 8
+      }
+    },
     "options": "#deeper_dark:enchantment_addition",
-    "only_compatible": true,
     "conditions": [
       {
         "condition": "minecraft:entity_scores",
@@ -48,38 +71,16 @@
             "min": 8
           }
         }
-      }
-    ]
-  },
-  {
-    "function": "minecraft:filtered",
-    "item_filter": {
-      "items": "minecraft:book"
-    },
-    "modifier": [
-      {
-        "function": "minecraft:set_components",
-        "components": {
-          "minecraft:stored_enchantments": {}
-        }
       },
       {
-        "function": "minecraft:enchant_with_levels",
-        "levels": {
-          "min": {
-            "type": "minecraft:score",
-            "target": "this",
-            "score": "deeper_dark.sculk_converter.flames",
-            "scale": 4
-          },
-          "max": {
-            "type": "minecraft:score",
-            "target": "this",
-            "score": "deeper_dark.sculk_converter.flames",
-            "scale": 5
+        "condition": "minecraft:inverted",
+        "term": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "nbt": "{data:{Item:{id:\"minecraft:enchanted_book\"}}}"
           }
-        },
-        "options": "#deeper_dark:enchantment_addition"
+        }
       }
     ]
   },
