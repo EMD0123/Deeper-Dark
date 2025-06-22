@@ -1,0 +1,9 @@
+{
+  "values": [
+    "minecraft:spyglass",
+    {
+      "id": "c:spyglasses",
+      "required": false
+    }
+  ]
+}
