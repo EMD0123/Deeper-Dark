@@ -72,6 +72,7 @@
   "deeper_dark.gui.gamerules.disable_portals.desc": "Disables the creation and usage of portals.",
   "deeper_dark.gui.gamerules.sonic_boom_damage": "Sonic Boom Damage",
   "deeper_dark.gui.gamerules.sonic_boom_damage.desc": "Controls how much damage deeper dark's sonic attacks do.",
+  "deeper_dark.gui.error.dim_not_exist": "Something went wrong. Please try rejoining the singleplayer world/restarting the server. If the issue persists, report the bug on Planet Minecraft.",
   "advancement.deeper_dark.altar_fragment.title": "Finding The Pieces",
   "advancement.deeper_dark.altar_fragment.desc": "Discover One of the Sculk Conversion Altar Fragments",
   "advancement.deeper_dark.amethyst_mineshaft.title": "Infinite Amethyst",
