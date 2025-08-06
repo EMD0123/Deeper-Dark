@@ -28,7 +28,7 @@
         "items": [
           {
             "items": [
-              "minecraft:disc_fragment_5"
+              "minecraft:music_disc_5"
             ],
             "components": {
               "minecraft:custom_data": {"deeper_dark_altar_fragment":1}
