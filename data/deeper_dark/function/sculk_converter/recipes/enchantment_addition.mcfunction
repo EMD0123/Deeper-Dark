@@ -4,6 +4,7 @@ summon armor_stand ~ ~ ~ {Marker:1b,Invisible:1b,Tags:["deeper_dark.sculk_conver
 data modify entity @s data.newItem set from entity @s data.Item
 data modify entity @e[tag=deeper_dark.sculk_converter.recipes.item,limit=1,sort=nearest] item set from entity @s data.Item
 data modify entity @e[tag=deeper_dark.sculk_converter.recipes.item2,limit=1,sort=nearest] equipment.mainhand set from entity @s data.Item
+execute as @e[tag=deeper_dark.sculk_converter.recipes.item,limit=1,sort=nearest] if items entity @s container.0 *[!minecraft:enchantable] run item modify entity @s container.0 {"function":"minecraft:set_components","components":{"minecraft:enchantable":{"value":1}}}
 item modify entity @e[tag=deeper_dark.sculk_converter.recipes.item,limit=1,sort=nearest] container.0 deeper_dark:enchantment_addition
 execute as @e[tag=deeper_dark.sculk_converter.recipes.item,limit=1,sort=nearest] run data modify entity @s data.enchantments set from entity @s item.components."minecraft:enchantments"
 execute as @e[tag=deeper_dark.sculk_converter.recipes.item,limit=1,sort=nearest] if predicate {"condition":"minecraft:entity_properties","entity":"this","predicate":{"slots":{"weapon":{"components":{"minecraft:enchantments":{}}}}}} run return fail
