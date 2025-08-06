@@ -320,4 +320,5 @@ Has translation support.
 </details>
 
 # Credits
-Credit to peA_sh0ter for helping me design the deep oasis biome.
+peA_sh0ter - Help designing the deep oasis biome.
+Eunalice - Traditional Chinese Translations.
