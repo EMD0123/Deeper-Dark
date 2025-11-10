@@ -31,6 +31,7 @@
     "depth": "deeper_dark:depth",
     "ridges": "deeper_dark:ridges",
     "initial_density_without_jaggedness": 0,
+    "preliminary_surface_level": 0,
     "final_density": "deeper_dark:terrain/roof",
     "vein_toggle": 0,
     "vein_ridged": 0,

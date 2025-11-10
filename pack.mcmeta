@@ -1,10 +1,12 @@
 {
   "pack": {
-    "pack_format": 71,
+    "min_format": 71,
+    "max_format": 88,
     "description": "A Sculk-Filled Dimension for You to Explore",
+    "pack_format": 71,
     "supported_formats": [
       71,
-      81
+      88
     ]
   }
 }
