@@ -1,20 +1,49 @@
 {
-  "ultrawarm": false,
-  "natural": false,
-  "piglin_safe": false,
-  "respawn_anchor_works": true,
-  "bed_works": false,
-  "has_raids": false,
-  "has_skylight": false,
-  "has_ceiling": true,
-  "coordinate_scale": 1,
+  "attributes": {
+    "minecraft:gameplay/bed_rule": {
+      "can_set_spawn": "never",
+      "can_sleep": "never",
+      "explodes": true
+    },
+    "minecraft:gameplay/can_start_raid": false,
+    "minecraft:gameplay/respawn_anchor_works": true,
+    "minecraft:gameplay/sky_light_level": 4,
+    "minecraft:visual/fog_end_distance": 96,
+    "minecraft:visual/fog_start_distance": 10,
+    "minecraft:visual/sky_light_color": "#7a7aff",
+    "minecraft:visual/sky_light_factor": 0,
+
+    "minecraft:audio/ambient_sounds": {
+      "mood": {
+        "block_search_extent": 8,
+        "offset": 2,
+        "sound": "minecraft:ambient.soul_sand_valley.mood",
+        "tick_delay": 6000
+      }
+    },
+    "minecraft:audio/background_music": {
+      "default": {
+        "max_delay": 2,
+        "min_delay": 1,
+        "sound": "minecraft:music.overworld.deep_dark",
+        "replace_current_music": true
+      }
+    },
+    "minecraft:visual/fog_color": 2570,
+    "minecraft:visual/water_fog_color": 329011
+  },
   "ambient_light": 0,
-  "fixed_time": 18000,
-  "logical_height": 128,
-  "effects": "minecraft:the_nether",
+  "cardinal_light": "nether",
+  "coordinate_scale": 1,
+  "has_ceiling": true,
+  "has_fixed_time": true,
+  "has_skylight": false,
   "infiniburn": "#minecraft:infiniburn_overworld",
+  "logical_height": 128,
   "min_y": -64,
   "height": 128,
+  "skybox": "none",
+  "timelines": "#deeper_dark:in_deeper_dark",
   "monster_spawn_light_level": {
     "type": "minecraft:uniform",
       "min_inclusive": 0,

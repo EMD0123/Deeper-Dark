@@ -1,37 +1,35 @@
 {
+  "attributes": {
+    "minecraft:gameplay/snow_golem_melts": true,
+    "minecraft:gameplay/water_evaporates": true,
+    "minecraft:visual/default_dripstone_particle": {
+      "type": "minecraft:dripping_dripstone_lava"
+    },
+    "minecraft:visual/fog_color": 3216642,
+   "minecraft:audio/ambient_sounds": {
+      "loop": "minecraft:ambient.basalt_deltas.loop",
+      "mood": {
+        "block_search_extent": 8,
+        "offset": 2,
+        "sound": "minecraft:ambient.soul_sand_valley.mood",
+        "tick_delay": 6000
+      }
+    },
+    "minecraft:visual/ambient_particles": [
+      {
+        "particle": {
+          "type": "smoke"
+        },
+        "probability": 0.01
+      }
+    ]
+  },
   "temperature": 0.8,
   "downfall": 0.4,
   "has_precipitation": false,
   "effects": {
     "sky_color": 656640,
-    "fog_color": 3216642,
-    "water_color": 5005189,
-    "water_fog_color": 329011,
-    "ambient_sound": "minecraft:ambient.basalt_deltas.loop",
-    "mood_sound": {
-      "sound": "minecraft:ambient.soul_sand_valley.mood",
-      "tick_delay": 6000,
-      "block_search_extent": 8,
-      "offset": 2
-    },
-    "music": [
-      {
-        "data": {
-          "sound": "minecraft:music.overworld.deep_dark",
-          "min_delay": 1,
-          "max_delay": 2,
-          "replace_current_music": true
-        },
-        "weight": 1
-      }
-    ],
-    "music_volume": 1,
-    "particle": {
-      "options": {
-        "type": "smoke"
-      },
-      "probability": 0.01
-    }
+    "water_color": 5005189
   },
   "spawners": {
     "ambient": [],

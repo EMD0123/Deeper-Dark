@@ -1,30 +1,13 @@
 {
+  "attributes": {
+    "minecraft:visual/fog_end_distance": 288
+  },
   "temperature": 0.8,
   "downfall": 0.4,
   "has_precipitation": false,
   "effects": {
     "sky_color": 2570,
-    "fog_color": 2570,
-    "water_color": 2508162,
-    "water_fog_color": 329011,
-    "mood_sound": {
-      "sound": "minecraft:ambient.soul_sand_valley.mood",
-      "tick_delay": 6000,
-      "block_search_extent": 8,
-      "offset": 2
-    },
-    "music": [
-      {
-        "data": {
-          "sound": "minecraft:music.overworld.deep_dark",
-          "min_delay": 1,
-          "max_delay": 2,
-          "replace_current_music": true
-        },
-        "weight": 1
-      }
-    ],
-    "music_volume": 1
+    "water_color": 2508162
   },
   "spawners": {
     "ambient": [],
