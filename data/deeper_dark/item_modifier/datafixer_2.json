@@ -6,7 +6,7 @@
         "minecraft:custom_data": {"deeper_dark_enchantments": ["clearsight"]}
       }
     },
-    "modifier": {
+    "on_pass": {
       "function": "minecraft:set_enchantments",
       "enchantments": {
         "deeper_dark:clearsight": 1
@@ -21,7 +21,7 @@
         "minecraft:custom_data": {"deeper_dark_enchantments": ["sonic_boom"]}
       }
     },
-    "modifier": {
+    "on_pass": {
       "function": "minecraft:set_enchantments",
       "enchantments": {
         "deeper_dark:sonic_boom": 1
@@ -36,7 +36,7 @@
         "minecraft:custom_data": {"deeper_dark_enchantments": ["safefall"]}
       }
     },
-    "modifier": {
+    "on_pass": {
       "function": "minecraft:set_enchantments",
       "enchantments": {
         "deeper_dark:safefall": 3
@@ -51,7 +51,7 @@
         "minecraft:custom_data": {"deeper_dark_enchantments": ["darkspeed"]}
       }
     },
-    "modifier": {
+    "on_pass": {
       "function": "minecraft:set_enchantments",
       "enchantments": {
         "deeper_dark:darkspeed": 3
@@ -66,7 +66,7 @@
         "minecraft:custom_data": {"deeper_dark_enchantments": ["resonate"]}
       }
     },
-    "modifier": {
+    "on_pass": {
       "function": "minecraft:set_enchantments",
       "enchantments": {
         "deeper_dark:resonate": 1
@@ -81,7 +81,7 @@
         "minecraft:custom_data": {"deeper_dark_enchantments": ["shrieker_sense"]}
       }
     },
-    "modifier": {
+    "on_pass": {
       "function": "minecraft:set_enchantments",
       "enchantments": {
         "deeper_dark:shrieker_sense": 1

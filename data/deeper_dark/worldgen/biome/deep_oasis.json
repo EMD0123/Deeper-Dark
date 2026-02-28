@@ -1,27 +1,36 @@
 {
+  "attributes": {
+    "minecraft:visual/fog_start_distance": 0,
+    "minecraft:audio/music_volume": 0.3,
+    "minecraft:visual/fog_color": 529416,
+    "minecraft:audio/background_music": {
+      "modifier": "override",
+      "argument": {
+        "default": {
+          "sound": {
+            "sound_id": ""
+          },
+          "min_delay": 0,
+          "max_delay": 0
+        }
+      }
+    },
+    "minecraft:visual/ambient_particles": [
+      {
+        "particle": {
+          "type": "spore_blossom_air"
+        },
+        "probability": 0.005
+      }
+    ]
+  },
   "temperature": 0.8,
   "downfall": 0.4,
   "has_precipitation": false,
   "effects": {
     "sky_color": 529416,
-    "fog_color": 529416,
     "water_color": 4159204,
-    "water_fog_color": 329011,
-    "grass_color_modifier": "dark_forest",
-    "mood_sound": {
-      "sound": "minecraft:ambient.soul_sand_valley.mood",
-      "tick_delay": 6000,
-      "block_search_extent": 8,
-      "offset": 2
-    },
-    "music": [],
-    "music_volume": 0,
-    "particle": {
-      "options": {
-        "type": "minecraft:spore_blossom_air"
-      },
-      "probability": 0.005
-    }
+    "grass_color_modifier": "dark_forest"
   },
   "spawners": {
     "ambient": [],

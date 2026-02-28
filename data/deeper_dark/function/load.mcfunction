@@ -36,9 +36,9 @@ scoreboard objectives add deeper_dark.gamerule.shrieker_sense_scan_limit dummy
 scoreboard objectives add deeper_dark.gamerule.disable_portals dummy
 scoreboard objectives add deeper_dark.gamerule.sonic_boom_damage dummy
 
-execute store result score Game deeper_dark.var run gamerule maxCommandChainLength
-execute if score Game deeper_dark.var matches 65536 run gamerule maxCommandChainLength 2147483647
-execute store result score Game deeper_dark.var run gamerule maxCommandForkCount
-execute if score Game deeper_dark.var matches 65536 run gamerule maxCommandForkCount 2147483647
+execute store result score Game deeper_dark.var run gamerule max_command_sequence_length
+execute if score Game deeper_dark.var matches 65536 run gamerule max_command_sequence_length 2147483647
+execute store result score Game deeper_dark.var run gamerule max_command_forks
+execute if score Game deeper_dark.var matches 65536 run gamerule max_command_forks 2147483647
 
 

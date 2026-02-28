@@ -95,7 +95,7 @@
         ]
       }
     },
-    "modifier": {
+    "on_pass": {
       "function": "minecraft:set_components",
       "components": {
         "minecraft:enchantments": {}

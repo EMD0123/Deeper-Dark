@@ -1,36 +1,30 @@
 {
+  "attributes": {
+    "minecraft:visual/fog_color": 2293760,
+    "minecraft:visual/water_fog_color": 3343621,
+    "minecraft:audio/ambient_sounds": {
+      "mood": {
+        "sound": "minecraft:ambient.soul_sand_valley.mood",
+        "tick_delay": 600,
+        "block_search_extent": 8,
+        "offset": 2
+      }
+    },
+    "minecraft:visual/ambient_particles": [
+      {
+        "particle": {
+          "type": "minecraft:sculk_soul"
+        },
+        "probability": 0.00005
+      }
+    ]
+  },
   "temperature": 0.8,
   "downfall": 0.4,
   "has_precipitation": false,
   "effects": {
     "sky_color": 2293760,
-    "fog_color": 2293760,
-    "water_color": 5183275,
-    "water_fog_color": 3343621,
-    "mood_sound": {
-      "sound": "minecraft:ambient.soul_sand_valley.mood",
-      "tick_delay": 600,
-      "block_search_extent": 8,
-      "offset": 2
-    },
-    "music": [
-      {
-        "data": {
-          "sound": "minecraft:music.overworld.deep_dark",
-          "min_delay": 1,
-          "max_delay": 2,
-          "replace_current_music": true
-        },
-        "weight": 1
-      }
-    ],
-    "music_volume": 1,
-    "particle": {
-      "options": {
-        "type": "minecraft:sculk_soul"
-      },
-      "probability": 0.0001
-    }
+    "water_color": 5183275
   },
   "spawners": {
     "ambient": [],
