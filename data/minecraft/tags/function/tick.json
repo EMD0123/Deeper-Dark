@@ -1,5 +1,8 @@
 {
  "values": [
- "deeper_dark:main"
+  {
+   "id": "deeper_dark:main",
+   "required": false
+  }
  ]
 }

@@ -1,5 +1,8 @@
 {
  "values": [
- "deeper_dark:load"
+  {
+   "id": "deeper_dark:load",
+   "required": false
+  }
  ]
 }
