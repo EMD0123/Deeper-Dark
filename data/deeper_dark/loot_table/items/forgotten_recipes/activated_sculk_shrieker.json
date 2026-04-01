@@ -1,0 +1,25 @@
+{"type":"minecraft:command","pools":[{"rolls":1,"entries":[{"type":"minecraft:item","name":
+
+"minecraft:enchanted_book",
+
+  "functions":[{"function":"minecraft:set_components",
+
+"components":{
+  "minecraft:custom_name": {"translate":"item.deeper_dark.forgotten_recipe","fallback":"Forgotten Recipe","italic":false},
+  "minecraft:item_name": {"translate":"item.deeper_dark.forgotten_recipe","fallback":"Forgotten Recipe"},
+  "minecraft:rarity":"uncommon",
+  "minecraft:item_model": "minecraft:knowledge_book",
+  "minecraft:lore": [
+    {"translate":"item.deeper_dark.activated_sculk_shrieker","fallback":"Activated Sculk Shrieker","color":"gray","italic":false}
+  ],
+  "minecraft:custom_data": {
+    "deeper_dark_forgotten_recipe":1,
+    "deeper_dark_forgotten_recipe_dialog":"deeper_dark:forgotten_recipe/activated_sculk_shrieker"
+  },
+  "minecraft:consumable": {"consume_seconds":1.0E38,"animation":"block","sound":{"sound_id":""},"has_consume_particles":false},
+  "minecraft:max_stack_size": 16,
+  "!minecraft:stored_enchantments": {}
+
+}
+
+}]}]}]}

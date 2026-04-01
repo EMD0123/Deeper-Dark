@@ -1,0 +1,78 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "deeper_dark:items/forgotten_recipes/activated_sculk_shrieker",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "structures": "deeper_dark:laboratory"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "deeper_dark:items/forgotten_recipes/blindness_potion"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "deeper_dark:items/forgotten_recipes/echo_shard"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "deeper_dark:items/forgotten_recipes/enchanted_golden_apple",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "structures": "deeper_dark:laboratory"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "deeper_dark:items/forgotten_recipes/enchantment_addition"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "deeper_dark:items/forgotten_recipes/experience_bottle"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "deeper_dark:items/forgotten_recipes/reinforced_deepslate"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "deeper_dark:items/forgotten_recipes/sculk_catalyst",
+          "conditions": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "structures": "deeper_dark:laboratory"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "deeper_dark:items/forgotten_recipes/soul_sand"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "deeper_dark:items/forgotten_recipes/soul_soil"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "deeper_dark:items/forgotten_recipes/warden_tracker"
+        }
+      ]
+    }
+  ]
+}

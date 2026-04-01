@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_book"
+          ],
+          "predicates": {
+            "minecraft:custom_data": {
+              "deeper_dark_forgotten_recipe": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "deeper_dark:items/forgotten_recipe/activate"
+  }
+}

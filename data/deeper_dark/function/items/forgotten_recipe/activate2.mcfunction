@@ -1,0 +1,1 @@
+$dialog show @s $(deeper_dark_forgotten_recipe_dialog)

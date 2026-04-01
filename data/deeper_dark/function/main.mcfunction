@@ -18,7 +18,9 @@ execute as @p[nbt={SelectedItem:{id:"minecraft:echo_shard",components:{"minecraf
 
 #cooldown
 execute as @e[tag=deeper_dark.tp_cooldown] at @s if loaded ~ ~ ~ unless block ~ ~-.1 ~ minecraft:reinforced_deepslate unless block ~ ~-.5 ~ minecraft:reinforced_deepslate positioned ~-0.5 ~-0.5 ~-0.5 unless entity @e[dx=0.01,dy=0.01,dz=0.01,tag=deeper_dark.portal_marker] run tag @s remove deeper_dark.tp_cooldown
-
+tag @a[tag=deeper_dark.used_forgotten_recipe2] remove deeper_dark.used_forgotten_recipe2
+tag @a[tag=deeper_dark.used_forgotten_recipe] add deeper_dark.used_forgotten_recipe2
+tag @a[tag=deeper_dark.used_forgotten_recipe2] remove deeper_dark.used_forgotten_recipe
 #particle
 execute if score Game deeper_dark.gamerule.disable_portal_particles matches 0 as @a[nbt={SelectedItem:{id:"minecraft:echo_shard"}},predicate=!deeper_dark:in_deeper_dark,tag=!deeper_dark.tp_cooldown,gamemode=!spectator] at @s store success score @s deeper_dark.var run fill ~-5 ~-5 ~-5 ~5 ~5 ~5 chain_command_block{Command:"deeper_dark.near_portal"} replace reinforced_deepslate
 execute if score Game deeper_dark.gamerule.disable_portal_particles matches 0 as @a[nbt={SelectedItem:{id:"minecraft:echo_shard"}},predicate=!deeper_dark:in_deeper_dark,tag=!deeper_dark.tp_cooldown,gamemode=!spectator] at @s run fill ~-5 ~-5 ~-5 ~5 ~5 ~5 reinforced_deepslate replace chain_command_block{Command:"deeper_dark.near_portal"}

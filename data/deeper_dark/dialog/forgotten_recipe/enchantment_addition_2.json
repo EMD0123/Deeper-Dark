@@ -1,0 +1,278 @@
+{
+  "type": "minecraft:notice",
+  "title": {
+    "translate": "item.deeper_dark.forgotten_recipe",
+    "fallback": "Forgotten Recipe"
+  },
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "translate": "deeper_dark.gui.forgotten_recipe.enchantment_addition_2.enchanting_power",
+        "fallback": "Enchanting Power",
+        "color": "green"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": " ",
+          "color": "aqua"
+        },
+        {
+          "text": " = 0",
+          "color": "white"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "🔥",
+          "color": "aqua"
+        },
+        {
+          "text": " = 3-5",
+          "color": "white"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "🔥🔥",
+          "color": "aqua"
+        },
+        {
+          "text": " = 6-10",
+          "color": "white"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "🔥🔥🔥",
+          "color": "aqua"
+        },
+        {
+          "text": " = 9-15",
+          "color": "white"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "🔥🔥🔥🔥",
+          "color": "aqua"
+        },
+        {
+          "text": " = 12-20",
+          "color": "white"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "🔥🔥🔥🔥🔥",
+          "color": "aqua"
+        },
+        {
+          "text": " = 15-25",
+          "color": "white"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "🔥🔥🔥🔥🔥🔥",
+          "color": "aqua"
+        },
+        {
+          "text": " = 18-30",
+          "color": "white"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "🔥🔥🔥🔥🔥🔥🔥",
+          "color": "aqua"
+        },
+        {
+          "text": " = 21-35",
+          "color": "white"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": [
+        {
+          "text": "🔥🔥🔥🔥🔥🔥🔥🔥",
+          "color": "aqua"
+        },
+        {
+          "text": " = 24-64",
+          "color": "white"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "book"
+      },
+      "description": [
+        {
+          "text": "   ",
+          "color": "aqua"
+        },
+        {
+          "text": " = 0",
+          "color": "white"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "book"
+      },
+      "description": [
+        {
+          "text": " 🔥",
+          "color": "aqua"
+        },
+        {
+          "text": " = 4-8",
+          "color": "white"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "book"
+      },
+      "description": [
+        {
+          "text": " 🔥🔥",
+          "color": "aqua"
+        },
+        {
+          "text": " = 8-16",
+          "color": "white"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "book"
+      },
+      "description": [
+        {
+          "text": " 🔥🔥🔥",
+          "color": "aqua"
+        },
+        {
+          "text": " = 12-24",
+          "color": "white"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "book"
+      },
+      "description": [
+        {
+          "text": " 🔥🔥🔥🔥",
+          "color": "aqua"
+        },
+        {
+          "text": " = 16-32",
+          "color": "white"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "book"
+      },
+      "description": [
+        {
+          "text": " 🔥🔥🔥🔥🔥",
+          "color": "aqua"
+        },
+        {
+          "text": " = 20-40",
+          "color": "white"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "book"
+      },
+      "description": [
+        {
+          "text": " 🔥🔥🔥🔥🔥🔥",
+          "color": "aqua"
+        },
+        {
+          "text": " = 24-48",
+          "color": "white"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "book"
+      },
+      "description": [
+        {
+          "text": " 🔥🔥🔥🔥🔥🔥🔥",
+          "color": "aqua"
+        },
+        {
+          "text": " = 28-56",
+          "color": "white"
+        }
+      ]
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "book"
+      },
+      "description": [
+        {
+          "text": " 🔥🔥🔥🔥🔥🔥🔥🔥",
+          "color": "aqua"
+        },
+        {
+          "text": " = 32-64",
+          "color": "white"
+        }
+      ]
+    }
+  ]
+}

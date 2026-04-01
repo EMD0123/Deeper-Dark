@@ -1,0 +1,54 @@
+{
+  "type": "minecraft:notice",
+  "title": {
+    "translate": "item.deeper_dark.forgotten_recipe",
+    "fallback": "Forgotten Recipe"
+  },
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:sculk_catalyst"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": "- ↑ -"
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:bone_block"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "▬▬▬▬▬▬▬▬▬▬▭▭▭▭▭▭▭▭▭▭▭▭▭▭▭▭▭▭▭▭",
+        "color": "green"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "🔥🔥🔥🔥",
+        "color": "aqua"
+      }
+    },
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:sculk_catalyst",
+        "components": {
+          "minecraft:enchantment_glint_override": true,
+          "minecraft:rarity": "rare",
+          "minecraft:custom_name": {
+            "translate": "block.deeper_dark.sculk_converter",
+            "fallback": "Sculk Converter",
+            "italic": false
+          }
+        }
+      }
+    }
+  ]
+}
