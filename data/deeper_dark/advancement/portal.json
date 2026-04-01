@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:reinforced_deepslate"
+    },
+    "title": {
+    "translate": "advancement.deeper_dark.portal.title",
+    "fallback": "On The Otherside"
+},
+    "description": {
+    "translate": "advancement.deeper_dark.portal.desc",
+    "fallback": "Light and Travel Through a Deeper Dark Portal"
+},
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "deeper_dark:way_out",
+  "criteria": {
+    "criteria": {
+      "trigger": "minecraft:impossible",
+      "conditions": {}
+    }
+  }
+}

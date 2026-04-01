@@ -1,4 +1,5 @@
 execute if entity @s[tag=deeper_dark.tp_cooldown] run return fail
+advancement grant @s only deeper_dark:portal
 data modify storage deeper_dark:data PortalDestination set from entity @n[tag=deeper_dark.portal_marker,distance=0..20] data.location
 data modify storage deeper_dark:data PortalLocation.dim set from entity @n[tag=deeper_dark.portal_marker,distance=0..20] data.location.dim
 data modify storage deeper_dark:data PortalLocation.x set from entity @s Pos[0]

@@ -132,5 +132,7 @@
   "advancement.deeper_dark.void.title": "Out of Bounds",
   "advancement.deeper_dark.void.desc": "How Did You Get Up There?",
   "advancement.deeper_dark.way_out.title": "The Way Out",
-  "advancement.deeper_dark.way_out.desc": "Escape the Deeper Dark the Same Way you Came In"
+  "advancement.deeper_dark.way_out.desc": "Escape the Deeper Dark the Same Way you Came In",
+  "advancement.deeper_dark.portal.title": "On The Otherside",
+  "advancement.deeper_dark.portal.desc": "Light and Travel Through a Deeper Dark Portal"
 }
