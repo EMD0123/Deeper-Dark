@@ -5,146 +5,178 @@
       "features": [
         {
           "feature": {
-            "type": "minecraft:random_patch",
+            "type": "minecraft:simple_block",
             "config": {
-              "tries": 96,
-              "xz_spread": 7,
-              "y_spread": 3,
-              "feature": {
-                "feature": {
-                  "type": "minecraft:simple_block",
-                  "config": {
-                    "to_place": {
-                      "type": "minecraft:simple_state_provider",
-                      "state": {
-                        "Name": "minecraft:pitcher_plant",
-                        "Properties": {
-                          "half": "lower"
-                        }
-                      }
-                    }
+              "to_place": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                  "Name": "minecraft:pitcher_plant",
+                  "Properties": {
+                    "half": "lower"
                   }
-                },
-                "placement": [
-                  {
-                    "type": "minecraft:block_predicate_filter",
-                    "predicate": {
-                      "type": "minecraft:matching_blocks",
-                      "blocks": "minecraft:air"
-                    }
-                  }
-                ]
+                }
               }
             }
           },
-          "placement": []
+          "placement": [
+            {
+              "type": "minecraft:count",
+              "count": 96
+            },
+            {
+              "type": "minecraft:random_offset",
+              "xz_spread": {
+                "type": "minecraft:trapezoid",
+                "min": -7,
+                "max": 7,
+                "plateau": 0
+              },
+              "y_spread": {
+                "type": "minecraft:trapezoid",
+                "min": -3,
+                "max": 3,
+                "plateau": 0
+              }
+            },
+            {
+              "type": "minecraft:block_predicate_filter",
+              "predicate": {
+                "type": "minecraft:matching_blocks",
+                "blocks": "minecraft:air"
+              }
+            }
+          ]
         },
         {
           "feature": {
-            "type": "minecraft:random_patch",
+            "type": "minecraft:simple_block",
             "config": {
-              "tries": 96,
-              "xz_spread": 7,
-              "y_spread": 3,
-              "feature": {
-                "feature": {
-                  "type": "minecraft:simple_block",
-                  "config": {
-                    "to_place": {
-                      "type": "minecraft:simple_state_provider",
-                      "state": {
-                        "Name": "minecraft:torchflower"
-                      }
-                    }
-                  }
-                },
-                "placement": [
-                  {
-                    "type": "minecraft:block_predicate_filter",
-                    "predicate": {
-                      "type": "minecraft:matching_blocks",
-                      "blocks": "minecraft:air"
-                    }
-                  }
-                ]
+              "to_place": {
+                "type": "minecraft:simple_state_provider",
+                "state": {
+                  "Name": "minecraft:torchflower"
+                }
               }
             }
           },
-          "placement": []
+          "placement": [
+            {
+              "type": "minecraft:count",
+              "count": 96
+            },
+            {
+              "type": "minecraft:random_offset",
+              "xz_spread": {
+                "type": "minecraft:trapezoid",
+                "min": -7,
+                "max": 7,
+                "plateau": 0
+              },
+              "y_spread": {
+                "type": "minecraft:trapezoid",
+                "min": -3,
+                "max": 3,
+                "plateau": 0
+              }
+            },
+            {
+              "type": "minecraft:block_predicate_filter",
+              "predicate": {
+                "type": "minecraft:matching_blocks",
+                "blocks": "minecraft:air"
+              }
+            }
+          ]
         },
         {
           "feature": {
-            "type": "minecraft:random_patch",
+            "type": "minecraft:bamboo",
             "config": {
-              "tries": 96,
-              "xz_spread": 7,
-              "y_spread": 3,
-              "feature": {
-                "feature": {
-                  "type": "minecraft:bamboo",
-                  "config": {
-                    "probability": 1
-                  }
-                },
-                "placement": [
-                  {
-                    "type": "minecraft:block_predicate_filter",
-                    "predicate": {
-                      "type": "minecraft:matching_blocks",
-                      "blocks": "minecraft:air"
-                    }
-                  }
-                ]
-              }
+              "probability": 1
             }
           },
-          "placement": []
+          "placement": [
+            {
+              "type": "minecraft:count",
+              "count": 96
+            },
+            {
+              "type": "minecraft:random_offset",
+              "xz_spread": {
+                "type": "minecraft:trapezoid",
+                "min": -7,
+                "max": 7,
+                "plateau": 0
+              },
+              "y_spread": {
+                "type": "minecraft:trapezoid",
+                "min": -3,
+                "max": 3,
+                "plateau": 0
+              }
+            },
+            {
+              "type": "minecraft:block_predicate_filter",
+              "predicate": {
+                "type": "minecraft:matching_blocks",
+                "blocks": "minecraft:air"
+              }
+            }
+          ]
         },
         {
-          "feature": {
-            "type": "minecraft:random_patch",
-            "config": {
-              "tries": 96,
-              "xz_spread": 7,
-              "y_spread": 3,
-              "feature": {
-                "feature": "minecraft:dripleaf",
-                "placement": [
+          "feature": "minecraft:dripleaf",
+          "placement": [
+            {
+              "type": "minecraft:count",
+              "count": 96
+            },
+            {
+              "type": "minecraft:random_offset",
+              "xz_spread": {
+                "type": "minecraft:trapezoid",
+                "min": -7,
+                "max": 7,
+                "plateau": 0
+              },
+              "y_spread": {
+                "type": "minecraft:trapezoid",
+                "min": -3,
+                "max": 3,
+                "plateau": 0
+              }
+            },
+            {
+              "type": "minecraft:block_predicate_filter",
+              "predicate": {
+                "type": "minecraft:all_of",
+                "predicates": [
                   {
-                    "type": "minecraft:block_predicate_filter",
-                    "predicate": {
-                      "type": "minecraft:all_of",
-                      "predicates": [
-                        {
-                          "type": "minecraft:matching_block_tag",
-                          "offset": [
-                            0,
-                            -1,
-                            0
-                          ],
-                          "tag": "minecraft:big_dripleaf_placeable"
-                        },
-                        {
-                          "type": "minecraft:matching_block_tag",
-                          "offset": [
-                            0,
-                            -1,
-                            0
-                          ],
-                          "tag": "minecraft:small_dripleaf_placeable"
-                        },
-                        {
-                          "type": "minecraft:matching_blocks",
-                          "blocks": "air"
-                        }
-                      ]
-                    }
+                    "type": "minecraft:matching_block_tag",
+                    "offset": [
+                      0,
+                      -1,
+                      0
+                    ],
+                    "tag": "minecraft:supports_big_dripleaf"
+                  },
+                  {
+                    "type": "minecraft:matching_block_tag",
+                    "offset": [
+                      0,
+                      -1,
+                      0
+                    ],
+                    "tag": "minecraft:supports_small_dripleaf"
+                  },
+                  {
+                    "type": "minecraft:matching_blocks",
+                    "blocks": "air"
                   }
                 ]
               }
             }
-          },
-          "placement": []
+          ]
         }
       ]
     }
@@ -177,7 +209,7 @@
       "max_steps": 5,
       "target_condition": {
         "type": "minecraft:matching_block_tag",
-        "tag": "minecraft:dirt"
+        "tag": "minecraft:substrate_overworld"
       },
       "allowed_search_condition": {
         "type": "minecraft:true"

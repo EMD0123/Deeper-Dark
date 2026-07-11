@@ -1,63 +1,30 @@
 {
   "feature": {
-    "type": "minecraft:random_patch",
+    "type": "minecraft:block_column",
     "config": {
-      "tries": 16,
-      "xz_spread": 8,
-      "y_spread": 0,
-      "feature": {
-        "feature": {
-          "type": "minecraft:block_column",
-          "config": {
-            "direction": "up",
-            "allowed_placement": {
-              "type": "minecraft:not",
-              "predicate": {
-                "type": "minecraft:solid"
-              }
-            },
-            "prioritize_tip": false,
-            "layers": [
-              {
-                "height": {
-                  "type": "minecraft:uniform",
-                 
-                    "min_inclusive": 1,
-                    "max_inclusive": 5
-                  
-                },
-                "provider": {
-                  "type": "minecraft:simple_state_provider",
-                  "state": {
-                    "Name": "minecraft:basalt"
-                  }
-                }
-              }
-            ]
-          }
-        },
-        "placement": [
-          {
-            "type": "minecraft:environment_scan",
-            "direction_of_search": "down",
-            "max_steps": 32,
-            "target_condition": {
-              "type": "minecraft:matching_blocks",
-              "offset": [
-                0,
-                -1,
-                0
-              ],
-              "blocks": [
-                "minecraft:magma_block","minecraft:deepslate","minecraft:tuff"
-              ]
-            },
-            "allowed_search_condition": {
-              "type": "minecraft:true"
+      "direction": "up",
+      "allowed_placement": {
+        "type": "minecraft:not",
+        "predicate": {
+          "type": "minecraft:solid"
+        }
+      },
+      "prioritize_tip": false,
+      "layers": [
+        {
+          "height": {
+            "type": "minecraft:uniform",
+            "min_inclusive": 1,
+            "max_inclusive": 5
+          },
+          "provider": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:basalt"
             }
           }
-        ]
-      }
+        }
+      ]
     }
   },
   "placement": [
@@ -82,6 +49,41 @@
     },
     {
       "type": "minecraft:biome"
+    },
+    {
+      "type": "minecraft:count",
+      "count": 16
+    },
+    {
+      "type": "minecraft:random_offset",
+      "xz_spread": {
+        "type": "minecraft:trapezoid",
+        "min": -8,
+        "max": 8,
+        "plateau": 0
+      },
+      "y_spread": 0
+    },
+    {
+      "type": "minecraft:environment_scan",
+      "direction_of_search": "down",
+      "max_steps": 32,
+      "target_condition": {
+        "type": "minecraft:matching_blocks",
+        "offset": [
+          0,
+          -1,
+          0
+        ],
+        "blocks": [
+          "minecraft:magma_block",
+          "minecraft:deepslate",
+          "minecraft:tuff"
+        ]
+      },
+      "allowed_search_condition": {
+        "type": "minecraft:true"
+      }
     }
   ]
 }

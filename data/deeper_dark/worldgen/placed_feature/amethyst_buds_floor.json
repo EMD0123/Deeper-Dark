@@ -1,104 +1,65 @@
 {
   "feature": {
-    "type": "minecraft:random_patch",
+    "type": "minecraft:block_column",
     "config": {
-      "tries": 64,
-      "xz_spread": 8,
-      "y_spread": 8,
-      "feature": {
-        "feature": {
-          "type": "minecraft:block_column",
-          "config": {
-            "direction": "up",
-            "allowed_placement": {
-              "type": "minecraft:matching_blocks",
-              "blocks": [
-                "minecraft:amethyst_block",
-                "minecraft:air"
-              ]
-            },
-            "prioritize_tip": false,
-            "layers": [
+      "direction": "up",
+      "allowed_placement": {
+        "type": "minecraft:matching_blocks",
+        "blocks": [
+          "minecraft:amethyst_block",
+          "minecraft:air"
+        ]
+      },
+      "prioritize_tip": false,
+      "layers": [
+        {
+          "height": 1,
+          "provider": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:budding_amethyst"
+            }
+          }
+        },
+        {
+          "height": 1,
+          "provider": {
+            "type": "minecraft:weighted_state_provider",
+            "entries": [
               {
-                "height": 1,
-                "provider": {
-                  "type": "minecraft:simple_state_provider",
-                  "state": {
-                    "Name": "minecraft:budding_amethyst"
-                  }
+                "weight": 1,
+                "data": {
+                  "Name": "minecraft:air"
                 }
               },
               {
-                "height": 1,
-                "provider": {
-                  "type": "minecraft:weighted_state_provider",
-                  "entries": [
-                    {
-                      "weight": 1,
-                      "data": {
-                        "Name": "minecraft:air"
-                      }
-                    },
-                    {
-                      "weight": 2,
-                      "data": {
-                        "Name": "minecraft:large_amethyst_bud"
-                      }
-                    },
-                    {
-                      "weight": 2,
-                      "data": {
-                        "Name": "minecraft:medium_amethyst_bud"
-                      }
-                    },
-                    {
-                      "weight": 2,
-                      "data": {
-                        "Name": "minecraft:small_amethyst_bud"
-                      }
-                    },
-                    {
-                      "weight": 4,
-                      "data": {
-                        "Name": "minecraft:amethyst_cluster"
-                      }
-                    }
-                  ]
+                "weight": 2,
+                "data": {
+                  "Name": "minecraft:large_amethyst_bud"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "minecraft:medium_amethyst_bud"
+                }
+              },
+              {
+                "weight": 2,
+                "data": {
+                  "Name": "minecraft:small_amethyst_bud"
+                }
+              },
+              {
+                "weight": 4,
+                "data": {
+                  "Name": "minecraft:amethyst_cluster"
                 }
               }
             ]
           }
-        },
-        "placement": [
-          {
-            "type": "minecraft:block_predicate_filter",
-            "predicate": {
-              "type": "minecraft:matching_blocks",
-              "offset": [
-                0,
-                0,
-                0
-              ],
-              "blocks": "minecraft:amethyst_block"
-            }
-          },
-          {
-            "type": "minecraft:block_predicate_filter",
-            "predicate": {
-              "type": "minecraft:matching_blocks",
-              "offset": [
-                0,
-                1,
-                0
-              ],
-              "blocks": [
-                "minecraft:air",
-                "minecraft:sculk_vein"
-              ]
-            }
-          }
-        ]
-      }
+        }
+      ]
     }
   },
   "placement": [
@@ -123,6 +84,52 @@
     },
     {
       "type": "minecraft:biome"
+    },
+    {
+      "type": "minecraft:count",
+      "count": 64
+    },
+    {
+      "type": "minecraft:random_offset",
+      "xz_spread": {
+        "type": "minecraft:trapezoid",
+        "min": -8,
+        "max": 8,
+        "plateau": 0
+      },
+      "y_spread": {
+        "type": "minecraft:trapezoid",
+        "min": -8,
+        "max": 8,
+        "plateau": 0
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "offset": [
+          0,
+          0,
+          0
+        ],
+        "blocks": "minecraft:amethyst_block"
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "offset": [
+          0,
+          1,
+          0
+        ],
+        "blocks": [
+          "minecraft:air",
+          "minecraft:sculk_vein"
+        ]
+      }
     }
   ]
 }

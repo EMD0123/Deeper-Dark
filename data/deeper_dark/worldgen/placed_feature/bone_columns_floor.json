@@ -1,67 +1,28 @@
 {
   "feature": {
-    "type": "minecraft:random_patch",
     "config": {
-      "tries": 64,
-      "xz_spread": 6,
-      "y_spread": 6,
-      "feature": {
-        "feature": {
-          "config": {
-            "direction": "up",
-            "allowed_placement": {
-              "type": "minecraft:replaceable"
-            },
-            "prioritize_tip": false,
-            "layers": [
-              {
-                "height": {
-                  "type": "minecraft:uniform",
-                  "min_inclusive": 2,
-                  "max_inclusive": 7
-                },
-                "provider": {
-                  "type": "minecraft:simple_state_provider",
-                  "state": {
-                    "Name": "minecraft:bone_block"
-                  }
-                }
-              }
-            ]
+      "direction": "up",
+      "allowed_placement": {
+        "type": "minecraft:replaceable"
+      },
+      "prioritize_tip": false,
+      "layers": [
+        {
+          "height": {
+            "type": "minecraft:uniform",
+            "min_inclusive": 2,
+            "max_inclusive": 7
           },
-          "type": "minecraft:block_column"
-        },
-        "placement": [
-          {
-            "type": "minecraft:block_predicate_filter",
-            "predicate": {
-              "type": "minecraft:matching_blocks",
-              "offset": [
-                0,
-                0,
-                0
-              ],
-              "blocks": [
-                "minecraft:sculk",
-                "minecraft:bone_block"
-              ]
-            }
-          },
-          {
-            "type": "minecraft:block_predicate_filter",
-            "predicate": {
-              "type": "minecraft:matching_blocks",
-              "offset": [
-                0,
-                1,
-                0
-              ],
-              "blocks": "#minecraft:replaceable"
+          "provider": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "minecraft:bone_block"
             }
           }
-        ]
-      }
-    }
+        }
+      ]
+    },
+    "type": "minecraft:block_column"
   },
   "placement": [
     {
@@ -85,6 +46,52 @@
     },
     {
       "type": "minecraft:biome"
+    },
+    {
+      "type": "minecraft:count",
+      "count": 64
+    },
+    {
+      "type": "minecraft:random_offset",
+      "xz_spread": {
+        "type": "minecraft:trapezoid",
+        "min": -6,
+        "max": 6,
+        "plateau": 0
+      },
+      "y_spread": {
+        "type": "minecraft:trapezoid",
+        "min": -6,
+        "max": 6,
+        "plateau": 0
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "offset": [
+          0,
+          0,
+          0
+        ],
+        "blocks": [
+          "minecraft:sculk",
+          "minecraft:bone_block"
+        ]
+      }
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "offset": [
+          0,
+          1,
+          0
+        ],
+        "blocks": "#minecraft:replaceable"
+      }
     }
   ]
 }
