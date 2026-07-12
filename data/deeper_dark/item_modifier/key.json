@@ -67,7 +67,8 @@
         },
         {
           "entity": "@s",
-          "nbt": "Dimension"
+          "nbt": "Dimension",
+          "interpret": true
         }
       ]
     ],
