@@ -14,6 +14,7 @@ execute as @s at @s run item modify entity @s weapon.mainhand deeper_dark:key
 function deeper_dark:valid_spawn/setup
 tag @s add deeper_dark.tp_cooldown
 advancement grant @s only deeper_dark:hint
+function deeper_dark:playerdata/remove_playerdata {field:"dimension_of_entrance_portal"}
 
 #tp
 execute in deeper_dark:deeper_dark run function deeper_dark:teleport with storage deeper_dark:data lastfoundstructure2

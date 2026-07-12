@@ -1,0 +1,1 @@
+$data remove storage deeper_dark:data players[$(id)].$(field)

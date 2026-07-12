@@ -25,6 +25,7 @@ bossbar add deeper_dark/boss {"translate":"entity.deeper_dark.boss","fallback":"
 bossbar set minecraft:deeper_dark/boss color blue
 bossbar set minecraft:deeper_dark/boss max 700
 scoreboard objectives add deeper_dark.deepslate minecraft.mined:minecraft.deepslate
+scoreboard objectives add deeper_dark.playerdata dummy
 
 scoreboard objectives add deeper_dark.gamerule.disable_keepinventory_override dummy
 scoreboard objectives add deeper_dark.gamerule.disable_screen_shake dummy

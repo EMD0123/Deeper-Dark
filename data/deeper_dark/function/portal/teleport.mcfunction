@@ -18,9 +18,11 @@ execute if score Game deeper_dark.var matches 0 at @s[nbt={SelectedItem:{id:"min
 execute if score Game deeper_dark.var matches 0 at @s[nbt={SelectedItem:{id:"minecraft:echo_shard"}}] run kill @e[tag=deeper_dark.item]
 
 
-
+execute if score Game deeper_dark.var matches 0 run function deeper_dark:playerdata/get_playerdata {field:"dimension_of_entrance_portal"}
+$execute if score Game deeper_dark.var matches 0 if data storage deeper_dark:data get_playerdata unless data storage deeper_dark:data {get_playerdata:"$(dim)"} run advancement grant @s only deeper_dark:dimensions_intertwined
 $execute if score Game deeper_dark.var matches 0 in $(dim) run tp @s $(x) $(y) $(z)
 $execute if score Game deeper_dark.var matches 1 in deeper_dark:deeper_dark run tp @s $(x) $(y) $(z)
+$execute if score Game deeper_dark.var matches 1 run function deeper_dark:playerdata/set_playerdata {field:"dimension_of_entrance_portal",value:"$(dim)"}
 execute at @s run playsound minecraft:entity.warden.sonic_boom block @s ~ ~ ~ 1 0
 execute at @s run playsound minecraft:block.portal.travel block @s ~ ~ ~ 1 1
 execute at @s run playsound minecraft:block.sculk_shrieker.shriek block @s ~ ~ ~ 1 0

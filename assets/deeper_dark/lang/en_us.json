@@ -134,5 +134,7 @@
   "advancement.deeper_dark.way_out.title": "The Way Out",
   "advancement.deeper_dark.way_out.desc": "Escape the Deeper Dark the Same Way you Came In",
   "advancement.deeper_dark.portal.title": "On The Otherside",
-  "advancement.deeper_dark.portal.desc": "Light and Travel Through a Deeper Dark Portal"
+  "advancement.deeper_dark.portal.desc": "Light and Travel Through a Deeper Dark Portal",
+  "advancement.deeper_dark.dimensions_intertwined.title": "Dimensions Intertwined",
+  "advancement.deeper_dark.dimensions_intertwined.desc": "Exit Through a Deeper Dark Portal Into a Dimension Different From Your Entrance Portal's"
 }
