@@ -3,5 +3,14 @@
     "min_format": 101,
     "max_format": 101,
     "description": "A Sculk-Filled Dimension for You to Explore"
+  },
+  "overlays": {
+    "entries": [
+      {
+        "directory": "overlay_26.2",
+        "min_format": 107,
+        "max_format": 107
+      }
+    ]
   }
 }
