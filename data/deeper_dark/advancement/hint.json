@@ -5,11 +5,11 @@
     },
     "title": {
     "translate": "advancement.deeper_dark.hint.title",
-    "fallback": "Echos in the Wind"
+    "fallback": "Echoes in the Wind"
 },
     "description": {
     "translate": "advancement.deeper_dark.hint.desc",
-    "fallback": "Walk Into the Ancient City Portal while Holding an Echo Shard. What Could go Wrong?"
+    "fallback": "Walk Into the Ancient City Portal Frame while Holding an Echo Shard. What Could go Wrong?"
 },
     "frame": "task",
     "show_toast": true,
